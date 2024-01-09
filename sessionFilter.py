@@ -8,6 +8,6 @@ def filterSession(session):
 
     data = pd.read_csv("raw_loki_data_new_prod.csv")
     sessionData = data.query("session_id == " + str(session))
-    sessionData.to_csv("session_" + str(session) + ".csv", index=False)
+    sessionData.to_json("singleSession.js")
 
 

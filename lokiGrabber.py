@@ -65,13 +65,15 @@ data = []
 
 # Query Function
 
-def grabData():
+#nDays = input("How many days ago was the session? (Max 30). Please enter an integer number of days: ")
+
+def grabData(nDays = 1):
     end_date = dateTimeToNano(
         datetime.datetime.now()
     )
 
     start_date = dateTimeToNano(
-        datetime.datetime.now() - datetime.timedelta(days = nDays)
+        datetime.datetime.now() - datetime.timedelta(days = int(nDays))
     )
 
     print(f"Start: {nanoToDateTime(start_date)}")
