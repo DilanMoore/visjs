@@ -19,8 +19,7 @@ p {text-align:center;}
     border: 1px solid green
 }
 </style>
-<!-- <script type="text/javascript" src="sessions.js"></script> -->
-<script type="text/javascript" src="singleSession.js"></script>
+<script type="text/javascript" src="session.js"></script>
 <script type="text/javascript">
 
 function getSessionIds(sessions) {
@@ -55,7 +54,7 @@ function restructureSessionData(ids, sessions) {
 }
 
 function setSession(sessionData, session_id) {
-    let s = session_id || 1419; // 1419 is the default session
+    let s = session_id || 1447; // 1447 is the default session
     return sessionData.filter(r => {
         return r.session_id === s;
     })[0]; 
