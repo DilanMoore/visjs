@@ -37,12 +37,12 @@ def structureJSON():
         messages = list(filter(lambda m:
                         m['session_id'] == session['session_id'] , input_json))
         
-        #place messages within the session dict
-        session['messages'] = messages
-        
-        #elevate level and date to the root of the dict
+        #insert level and date to the root of the dict
         session['level'] = messages[0]['level']
         session['date'] = messages[0]['date']
+        
+        #place messages within the session dict
+        session['messages'] = messages
         
         #remove unnecessary keys from the message dict now they've been moved to the dict root
         session['messages'] = list(map(lambda m: {

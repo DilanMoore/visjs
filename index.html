@@ -3,6 +3,7 @@
 <head>
 <meta charset='utf-8'>
 <title>A Simple HTML Example</title>
+<h1> Uptime Labs Post-Session Review </h1>
 <style>
 p {text-align:center;}
 </style>
@@ -184,6 +185,14 @@ class SessionModel {
         return this.session.end.getTime() - this.session.start.getTime();
     }
 
+    getStart(){
+        return this.session.start.getTime()
+    }
+
+  /*  getLevel(){
+        return this.session.
+    } */
+
     getMessages() {
         return this.session.messages;
     }
@@ -193,7 +202,7 @@ class SessionModel {
  * Timeline View - Uses Vis.js
  * @Class
  * @param {SessionAPI} api - reference to the API (currently fake)
- * @param {SessionModel} sessionModel - The model of the sesison to visualise
+ * @param {SessionModel} sessionModel - The model of the session to visualise
  * @param {Vis} vis - vis instance
  * @param {string} container - The dom node to contain the timeline
  */
@@ -392,11 +401,21 @@ console.log(sessionModel);
 let timeline = new TimelineView(sessionAPI, sessionModel, vis, document.getElementById('visualization'));
 let messagesView = new MessagesView(sessionModel.getMessages(), document.getElementById('messages'));
 
+
 selector.render();
 selector.addObserver(timeline);
 timeline.render();
 timeline.addObserver(messagesView);
  
 </script>
+
+
+<h4> details </h4>
+<script>
+   /document.write(sessionModel.session.getDuration())
+    document.write(sessionModel.session.getStart()) */
+    document.write(sessionModel.session.messages.length)
+</script>
+
 </body>
 </html>
