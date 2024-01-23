@@ -37,9 +37,10 @@ def structureJSON():
         messages = list(filter(lambda m:
                         m['session_id'] == session['session_id'] , input_json))
         
-        #insert level and date to the root of the dict
+        #insert level, date, message count to the root of the dict
         session['level'] = messages[0]['level']
         session['date'] = messages[0]['date']
+        session['messageCount'] = len(messages)
         
         #place messages within the session dict
         session['messages'] = messages
@@ -80,12 +81,17 @@ def structureJSON():
                             m['player'],session['messages'])))
 
         #add mentions to each message
+        mentionCount = 0
         for message in session['messages']:
             mentions = []
             for player in session['players']:
                 if player.lower() in message['message'].lower():
-                    mentions.append(player);
+                    mentions.append(player)
+                    mentionCount += 1
             message['mentions'] = mentions
+        
+        session["mentionCount"] = mentionCount
+
 
 
     json_sessions = json.dumps(sessions)

@@ -204,12 +204,20 @@ class SessionModel {
         return this.session.start.getTime()
     }
 
-  /*  getLevel(){
-        return this.session.
-    } */
+    getLevel(){
+        return this.session.level;
+    } 
 
     getMessages() {
         return this.session.messages;
+    }
+
+    getMessageCount(){
+        return this.session.messageCount;
+    } 
+
+    getMentionCount(){
+        return this.session.mentionCount;
     }
 }
 
@@ -418,9 +426,9 @@ let selector = new SelectorView(sessions.map(s => {
 console.log("ppoooooooo");
 console.log(sessionModel);
 
+
 let timeline = new TimelineView(sessionAPI, sessionModel, vis, document.getElementById('visualization'));
 let messagesView = new MessagesView(sessionModel.getMessages(), document.getElementById('messages'));
-
 
 selector.render();
 selector.addObserver(timeline);
@@ -430,11 +438,24 @@ timeline.addObserver(messagesView);
 </script>
 
 
-<h4> details </h4>
+<h4> Start Time </h4>
 <script>
-   /document.write(sessionModel.session.getDuration())
-    document.write(sessionModel.session.getStart()) */
-    document.write(sessionModel.session.messages.length)
+   document.write(sessionModel.session.getStart())
+</script>
+
+<h4> Level</h4>
+<script>
+    document.write(sessionModel.session.getLevel())
+</script>
+
+<h4> Message Count </h4>
+<script>
+    document.write(sessionModel.session.getMessageCount())
+</script>
+
+<h4> Mention Count </h4>
+<script>
+    document.write(sessionModel.session.getMentionCount())
 </script>
 
 </body>

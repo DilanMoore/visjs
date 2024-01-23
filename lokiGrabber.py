@@ -67,7 +67,8 @@ data = []
 
 #nDays = input("How many days ago was the session? (Max 30). Please enter an integer number of days: ")
 
-def grabData(nDays = 10):
+# Hard coded the program to only take last 24 hours of data
+def grabData(nDays = 1):
     end_date = dateTimeToNano(
         datetime.datetime.now()
     )

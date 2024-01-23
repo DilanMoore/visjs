@@ -1,684 +1,28 @@
 id,datetime,player,scenario,level,tenant,session_id,message,lex_intent,lex_score,neutral,negative,positive,mixed,sentiment,length_of_message,question
-0,1705399612180919000,UptimeLabs,online-boutique,12.0,,1457.0,Start Drill,n/a,0,,,,,,11,False
-1,1705399670229975000,shishya.shukla@ig.com,online-boutique,12.0,,1457.0,Clicked Start button,n/a,0,,,,,,20,False
-2,1705399670849929200,Bez,online-boutique,12.0,,1457.0,"So, business wise, we are on target for this months sales. Having said that we are too close to the target. We need every penny of every minute to stay on course.",n/a,0,,,,,,162,False
-3,1705399677847769000,Bez,online-boutique,12.0,,1457.0,Please make sure systems are healthy so we can hit target.,n/a,0,,,,,,58,False
-4,1705399681938019000,Tinus,online-boutique,12.0,,1457.0,"Welcome to the team @shishya shukla. everone is here to help, how are you finding things so far?",n/a,0,,,,,,96,True
-5,1705399687844829200,Bob,online-boutique,12.0,,1457.0,"@Tinus we're starting to get some mixed reports of customers not able to access the site, can your team investigate?",n/a,0,,,,,,116,True
-6,1705399688484759000,shishya.shukla@ig.com,online-boutique,12.0,,1457.0,Hello everyone,n/a,0,,,,,,14,False
-7,1705399690938599200,Tinus,online-boutique,12.0,,1457.0,"Yes @shishya shukla is incident manager today, shishya shukla can you drive this?",n/a,0,,,,,,81,True
-8,1705399700845079000,Bez,online-boutique,12.0,,1457.0,"Hey folks, what is going on? I can see a big drop on payments hitting our accounts",n/a,0,,,,,,82,True
-9,1705399701001479000,shishya.shukla@ig.com,online-boutique,12.0,,1457.0,the site is unavailable,n/a,0,,,,,,23,False
-10,1705399702934569000,Tinus,online-boutique,12.0,,1457.0,it could be a load issue,n/a,0,,,,,,24,False
-11,1705399704895539000,Daniel,online-boutique,12.0,,1457.0,There were a few deployments this morning,n/a,0,,,,,,41,False
-12,1705399708907519000,Daniel,online-boutique,12.0,,1457.0,I'm at your service,n/a,0,,,,,,19,False
-13,1705399710945309000,Tanya,online-boutique,12.0,,1457.0,I'm online too,n/a,0,,,,,,14,False
-14,1705399717587759000,shishya.shukla@ig.com,online-boutique,12.0,,1457.0,can see 503 message when trying to access it,n/a,0,,,,,,44,False
-15,1705399720903609000,Bob,online-boutique,12.0,,1457.0,What do I need to tell the angry customers?,n/a,0,,,,,,43,True
-16,1705399754482008800,Bez,online-boutique,12.0,,1457.0,"Morning! could you clarify the issue with the frontend service, please.",n/a,0,,,,,,71,False
-17,1705399776801379000,UptimeLabs,online-boutique,12.0,,1457.0,:star: Reproduces the incident,n/a,0,,,,,,30,False
-18,1705399801009708800,Daniel,online-boutique,12.0,,1457.0,The issue with the site being unavailable has been noted. ,n/a,0,,,,,,58,False
-19,1705399814366369000,shishya.shukla@ig.com,online-boutique,12.0,,1457.0,yes Daniel this being looked into,n/a,0,,,,,,33,False
-20,1705399829947189000,shishya.shukla,online-boutique,12.0,,1457.0,*Incident Number INC100087:* Website unavailable P1,n/a,0,,,,,,51,False
-21,1705399830454039000,Tinus,online-boutique,12.0,,1457.0,"Acknowledged, the frontend is emitting a 503 error which is a service availability issue.",n/a,0,,,,,,89,False
-22,1705399852814379000,shishya.shukla@ig.com,online-boutique,12.0,,1457.0,CHG89348 i see this change was deployed for frontend service,n/a,0,,,,,,60,False
-23,1705399875836209200,shishya.shukla@ig.com,online-boutique,12.0,,1457.0,may i know who deployed it ? and was it tested in lower environments,n/a,0,,,,,,68,True
-24,1705399900179289000,Daniel,online-boutique,12.0,,1457.0,I deployed the latest changes to the frontend service. All changes are typically tested in lower environments before production deployment.,n/a,0,,,,,,139,False
-25,1705399910810219000,Daniel,online-boutique,12.0,,1457.0,I will continue to investigate.,n/a,0,,,,,,31,False
-26,1705399953975339000,shishya.shukla@ig.com,online-boutique,12.0,,1457.0,"ok , Bob could you please confirm if its impacting all clients ?",n/a,0,,,,,,64,True
-27,1705399963552568800,shishya.shukla@ig.com,online-boutique,12.0,,1457.0,and all regions ?,n/a,0,,,,,,17,True
-28,1705399971151349000,Bob,online-boutique,12.0,,1457.0,The incident has been acknowledged and it's affecting global users.,n/a,0,,,,,,67,False
-29,1705399983451149000,Bob,online-boutique,12.0,,1457.0,"Yes, the impact is global.",n/a,0,,,,,,26,False
-30,1705399988130299100,UptimeLabs,online-boutique,12.0,,1457.0,:bulb: Hint: Restoration over root cause analysis,n/a,0,,,,,,49,False
-31,1705400010324169000,shishya.shukla@ig.com,online-boutique,12.0,,1457.0,We suspect CHG89348 to be causing the issue and its currently being investigated by Daniel.,n/a,0,,,,,,91,False
-32,1705400021581239000,UptimeLabs,online-boutique,12.0,,1457.0,:star: Reviewed changes,n/a,0,,,,,,23,False
-33,1705400037227489000,UptimeLabs,online-boutique,12.0,,1457.0,:star: Send regular business comms,n/a,0,,,,,,34,False
-34,1705400090889659000,shishya.shukla@ig.com,online-boutique,12.0,,1457.0,Daniel could you please try to rollback the change and see if that helps,n/a,0,,,,,,72,False
-35,1705400134470839000,Daniel,online-boutique,12.0,,1457.0,I'll look into the frontend issue and start rollback immediately.,n/a,0,,,,,,65,False
-36,1705400160773019100,shishya.shukla@ig.com,online-boutique,12.0,,1457.0,i see the website is restored,n/a,0,,,,,,29,False
-37,1705400179003399000,shishya.shukla@ig.com,online-boutique,12.0,,1457.0,Bob could you please confirm if it wroks fine for you?,n/a,0,,,,,,54,True
-38,1705400187679459000,UptimeLabs,online-boutique,12.0,,1457.0,Start drill retro and feedback,n/a,0,,,,,,30,False
-39,1705400188198299000,Tinus,online-boutique,12.0,,1457.0,Good job on identifying the right cause.,n/a,0,,,,,,40,False
-40,1705400202678329000,Bob,online-boutique,12.0,,1457.0,"Great, customers are now able to use the site and place orders. The site is back up and customer complaints are going down.",n/a,0,,,,,,123,False
-41,1705400226241319000,UptimeLabs,online-boutique,12.0,,1457.0,:star: Validate the fix,n/a,0,,,,,,23,False
-42,1705400255798629000,UptimeLabs,online-boutique,12.0,,1457.0,:star: Confirm resolution with the business,n/a,0,,,,,,43,False
-43,1705400263435949000,shishya.shukla@ig.com,online-boutique,12.0,,1457.0,"The website is restored now and accessible across all regions.
-Action - CHG89348 was rollbacked as a temporary fix",n/a,0,,,,,,114,False
-44,1705400331678818800,shishya.shukla@ig.com,online-boutique,12.0,,1457.0,Daniel could you please check the root cause of the issue and what caused it as this was tested in lower environments,n/a,0,,,,,,117,False
-45,1705400336988778200,shishya.shukla@ig.com,online-boutique,12.0,,1457.0,Clicked Start_feedback button,n/a,0,,,,,,29,False
-46,1705400364138689000,Daniel,online-boutique,12.0,,1457.0,"Sure, I will review the deployment and testing process for CHG89348 to identify the discrepancy between the lower environments and production.",n/a,0,,,,,,142,False
-47,1705400496982269000,UptimeLabs,online-boutique,12.0,,1457.0,Submission successful,n/a,0,,,,,,21,False
-48,1705413926642798800,UptimeLabs,online-boutique,3.0,,1458.0,":alarm_clock: - You have 20 minutes to resolve the outage, good luck! You can type `/help` if you need any reminders.",n/a,0,,,,,,117,False
-49,1705414219912199000,UptimeLabs,online-boutique,3.0,,1458.0,:star: Reproduces the incident,n/a,0,,,,,,30,False
-50,1705414244078089000,UptimeLabs,online-boutique,3.0,,1458.0,:star: Reproduces the incident,n/a,0,,,,,,30,False
-51,1705414260239409000,UptimeLabs,online-boutique,3.0,,1458.0,:bulb: Hint: Assign criticality level to the incident,n/a,0,,,,,,53,False
-52,1705414285448139000,UptimeLabs,online-boutique,3.0,,1458.0,:star: Reproduces the incident,n/a,0,,,,,,30,False
-53,1705414286992299000,UptimeLabs,online-boutique,3.0,,1458.0,:alarm_clock: - You are 6 minutes in have you qualified the problem? You can type `/help` if you need any reminders.,n/a,0,,,,,,116,True
-54,1705414301141789000,aydin.ghane,online-boutique,3.0,,1458.0,"*Incident Number INC10007:* SEV1 503 Service error, users can't access ecommerce website.",n/a,0,,,,,,89,False
-55,1705414368505949000,UptimeLabs,online-boutique,3.0,,1458.0,:bulb: Hint: Validate scope of the problem,n/a,0,,,,,,42,False
-56,1705414527291879000,UptimeLabs,online-boutique,3.0,,1458.0,":alarm_clock: - Half your time is up, stay focused. You can type `/help` if you need any reminders.",n/a,0,,,,,,99,False
-57,1705414604853779200,UptimeLabs,online-boutique,3.0,,1458.0,:bulb: Hint: Check the changes done in the platform,n/a,0,,,,,,51,False
-58,1705414611460748800,UptimeLabs,online-boutique,3.0,,1458.0,:bulb: Hint: Form an effective investigation team,n/a,0,,,,,,49,False
-59,1705414887712539000,UptimeLabs,online-boutique,3.0,,1458.0,:alarm_clock: - You have less than 4 minutes. You can type `/help` if you need any reminders.,n/a,0,,,,,,93,False
-60,1705415007829599000,UptimeLabs,online-boutique,3.0,,1458.0,":alarm_clock: - You have less than 2 minutes remaining, remember communication is key. You can type `/help` if you need any reminders.",n/a,0,,,,,,134,False
-61,1705413734124558800,Bez,online-boutique,3.0,,1459.0,"Good morning everybody, I'm in a great mood today:) can I have everybody's attention for our daily briefing?",n/a,0,,,,,,108,True
-62,1705413743048669200,Bez,online-boutique,3.0,,1459.0,send an emoji if you are around. I'll start first :grin:,n/a,0,,,,,,56,False
-63,1705413747935439000,Tinus,online-boutique,3.0,,1459.0,:innocent:,n/a,0,,,,,,10,False
-64,1705413749024239000,Tanya,online-boutique,3.0,,1459.0,:smiley:,n/a,0,,,,,,8,False
-65,1705413752029269000,Shay,online-boutique,3.0,,1459.0,:stuck_out_tongue:,n/a,0,,,,,,18,False
-66,1705413754992329000,Daniel,online-boutique,3.0,,1459.0,:grin:,n/a,0,,,,,,6,False
-67,1705413756038189000,Hamed,online-boutique,3.0,,1459.0,:kissing_smiling_eyes:,n/a,0,,,,,,22,False
-68,1705413759033669000,Bob,online-boutique,3.0,,1459.0,:sunglasses:,n/a,0,,,,,,12,False
-69,1705413768992319200,Bez,online-boutique,3.0,,1459.0,"Good, we've got everyone!",n/a,0,,,,,,25,False
-70,1705413772942478800,UptimeLabs,online-boutique,3.0,,1459.0,Start lvl 3,n/a,0,,,,,,11,False
-71,1705413926201715000,aydin.ghane@albelli.com,online-boutique,3.0,,1459.0,Clicked Start button,n/a,0,,,,,,20,False
-72,1705413926754959000,Bez,online-boutique,3.0,,1459.0,"So, business wise, we are on target for this months sales. Having said that we are too close to the target. We need every penny of every minute to stay on course.",n/a,0,,,,,,162,False
-73,1705413933723119000,Bez,online-boutique,3.0,,1459.0,All departments please make sure we are doing all we can to hit the target.,n/a,0,,,,,,75,False
-74,1705413938767419100,Bez,online-boutique,3.0,,1459.0,"For marketing folks, it means: be creative with targeting advertisement channels that have most return.",n/a,0,,,,,,103,False
-75,1705413943731278800,Bez,online-boutique,3.0,,1459.0,for merchandise team: be on trend and bring kool products on the site.,n/a,0,,,,,,70,False
-76,1705413947735069000,Bez,online-boutique,3.0,,1459.0,for IT: smooth user experience and availability.,n/a,0,,,,,,48,False
-77,1705413951824209000,Bez,online-boutique,3.0,,1459.0,Any questions?,n/a,0,,,,,,14,True
-78,1705413958756558800,Tinus,online-boutique,3.0,,1459.0,I'm a bit concerned with the load levels we see. From experience IT systems fail unpredictably in the face of load. so be vigilant,n/a,0,,,,,,130,False
-79,1705413963779959000,Bez,online-boutique,3.0,,1459.0,"Good point Tinus, more reason for IT to be vigilant",n/a,0,,,,,,51,False
-80,1705413966837569000,Tanya,online-boutique,3.0,,1459.0,One question boss,n/a,0,,,,,,17,False
-81,1705413968901979000,Bez,online-boutique,3.0,,1459.0,Shoot,n/a,0,,,,,,5,False
-82,1705413972755119000,Tanya,online-boutique,3.0,,1459.0,How close are we exactly to the budget?,n/a,0,,,,,,39,True
-83,1705413977762249000,Bez,online-boutique,3.0,,1459.0,"Good question, we are just on budget",n/a,0,,,,,,36,False
-84,1705413981848898800,Bez,online-boutique,3.0,,1459.0,We need to be super careful that we hit and exceed everyday,n/a,0,,,,,,59,False
-85,1705413991808769000,Bob,online-boutique,3.0,,1459.0,"It's odd, I'm seeing strange reports on twitter",n/a,0,,,,,,47,False
-86,1705413996824339000,Bob,online-boutique,3.0,,1459.0,Apparently the site is loading slow,n/a,0,,,,,,35,False
-87,1705413998866129000,Bob,online-boutique,3.0,,1459.0,"online boutique is slower than usual today, when will these guys get their act together - LOL",n/a,0,,,,,,93,False
-88,1705414003780088800,Tinus,online-boutique,3.0,,1459.0,Who is incident manager today?,n/a,0,,,,,,30,True
-89,1705414011787108900,Bob,online-boutique,3.0,,1459.0,This is getting ugly,n/a,0,,,,,,20,False
-90,1705414015888969000,Bob,online-boutique,3.0,,1459.0,people are reporting that they can't make payments either,n/a,0,,,,,,57,False
-91,1705414019871579000,Bob,online-boutique,3.0,,1459.0,It is very slow!,n/a,0,,,,,,16,False
-92,1705414023828339200,Bob,online-boutique,3.0,,1459.0,@Aydin Ghane Khoshkebijari can you take care of this major issue please?,n/a,0,,,,,,72,True
-93,1705414026090779100,aydin.ghane@albelli.com,online-boutique,3.0,,1459.0,"I am, boss!!!",n/a,0,,,,,,13,False
-94,1705414034789339100,Bez,online-boutique,3.0,,1459.0,"Hey folks, what is going on? I can see a big drop on payments hitting our accounts",n/a,0,,,,,,82,True
-95,1705414035520309000,aydin.ghane@albelli.com,online-boutique,3.0,,1459.0,On it,n/a,0,,,,,,5,False
-96,1705414039914289000,Tinus,online-boutique,3.0,,1459.0,I think it is a load issue,n/a,0,,,,,,26,False
-97,1705414041875289000,Tinus,online-boutique,3.0,,1459.0,unpredictable behaviour,n/a,0,,,,,,23,False
-98,1705414046854338800,Daniel,online-boutique,3.0,,1459.0,There were a few deployments this morning,n/a,0,,,,,,41,False
-99,1705414049878899200,Daniel,online-boutique,3.0,,1459.0,Let me check those,n/a,0,,,,,,18,False
-100,1705414053880789000,Bez,online-boutique,3.0,,1459.0,Ah! so we have 3 different issues??,n/a,0,,,,,,35,True
-101,1705414056892519000,Bez,online-boutique,3.0,,1459.0,@Aydin Ghane Khoshkebijari you better have a plan,n/a,0,,,,,,49,False
-102,1705414061855049000,Daniel,online-boutique,3.0,,1459.0,I'm at your service,n/a,0,,,,,,19,False
-103,1705414064889189000,Bob,online-boutique,3.0,,1459.0,What do I need to tell the angry customers?,n/a,0,,,,,,43,True
-104,1705414068888539100,Shay,online-boutique,3.0,,1459.0,What is the issue? I'm a bit confused,n/a,0,,,,,,37,True
-105,1705414140419239200,aydin.ghane@albelli.com,online-boutique,3.0,,1459.0,Trying to reproduce the issue,n/a,0,,,,,,29,False
-106,1705414161121749000,Tinus,online-boutique,3.0,,1459.0,ok great have you found anything?,n/a,0,,,,,,33,True
-107,1705414200714359000,aydin.ghane@albelli.com,online-boutique,3.0,,1459.0,"Can confirm that ecommerce site is not accessible, `503` server error!",n/a,0,,,,,,70,False
-108,1705414234908579000,Tinus,online-boutique,3.0,,1459.0,ok lets work out a plan of action ,n/a,0,,,,,,34,False
-109,1705414301221309000,UptimeLabs,online-boutique,3.0,,1459.0,:star: Incident record created,n/a,0,,,,,,30,False
-110,1705414303303249000,UptimeLabs,online-boutique,3.0,,1459.0,:star: Send first comms in first 5 minutes,n/a,0,,,,,,42,False
-111,1705414355265368800,aydin.ghane@albelli.com,online-boutique,3.0,,1459.0,"We're having issues on ecommerce website.
-Users can't reach website.",n/a,0,,,,,,68,False
-112,1705414410312558800,Bez,online-boutique,3.0,,1459.0,"Whats the update, this is SEV-1 how close to a solution are we?",n/a,0,,,,,,63,True
-113,1705414443320669000,UptimeLabs,online-boutique,3.0,,1459.0,:bulb: Validate scope of the problem,n/a,0,,,,,,36,False
-114,1705414537616059100,aydin.ghane@albelli.com,online-boutique,3.0,,1459.0,"Daniel I'm not seeing any recent. changes to a change on our side.
-Any input on the situatin?",n/a,0,,,,,,93,True
-115,1705414638774529000,Daniel,online-boutique,3.0,,1459.0,I'll check the recent changes,n/a,0,,,,,,29,False
-116,1705414644618289000,Daniel,online-boutique,3.0,,1459.0,give me 2 mins,n/a,0,,,,,,14,False
-117,1705414675207579000,aydin.ghane@albelli.com,online-boutique,3.0,,1459.0,Tanya Can you redirect me to whoever might have access to kubernates?,n/a,0,,,,,,69,True
-118,1705414700468399000,Tanya,online-boutique,3.0,,1459.0,"thats would be me, I can do any checks from a platform perspective",n/a,0,,,,,,66,False
-119,1705414725096669000,Daniel,online-boutique,3.0,,1459.0,Shay recently made a deploymet to frontend ,n/a,0,,,,,,43,False
-120,1705414734090939100,Daniel,online-boutique,3.0,,1459.0,I also deployed an update to payments,n/a,0,,,,,,37,False
-121,1705414739879479000,aydin.ghane@albelli.com,online-boutique,3.0,,1459.0,Could you check if we're having load issues?,n/a,0,,,,,,44,True
-122,1705414769913579000,aydin.ghane@albelli.com,online-boutique,3.0,,1459.0,Can you help me understand why you might suspect a change on frontend might lead to 503 error?,n/a,0,,,,,,94,True
-123,1705414773782039000,Tanya,online-boutique,3.0,,1459.0,sure no problem ,n/a,0,,,,,,16,False
-124,1705414819838449000,aydin.ghane@albelli.com,online-boutique,3.0,,1459.0,Daniel Can you help me with the change id?,n/a,0,,,,,,42,True
-125,1705414865549849000,Daniel,online-boutique,3.0,,1459.0,sure ,n/a,0,,,,,,5,False
-126,1705414876520339000,Daniel,online-boutique,3.0,,1459.0,CHG89349:Frontend:version 10.1.2 deployed:PROD:Shay,n/a,0,,,,,,51,False
-127,1705414898787399200,Daniel,online-boutique,3.0,,1459.0,CHG89347:PaymentService:version 1.3.5 deployed:PROD:Daniel,n/a,0,,,,,,58,False
-128,1705414910441359000,Daniel,online-boutique,3.0,,1459.0,there were also changes to uat but ive discounted them,n/a,0,,,,,,54,False
-129,1705414917816779000,Daniel,online-boutique,3.0,,1459.0,for now,n/a,0,,,,,,7,False
-130,1705414931787309000,Tanya,online-boutique,3.0,,1459.0,Ok looks like we havent had any significant spike in load,n/a,0,,,,,,57,False
-131,1705414969063249200,aydin.ghane@albelli.com,online-boutique,3.0,,1459.0,"Daniel Can you help me with the url where you got the change in?
-I don't have visibility over recent changes here:
-<https://grafana.prod.uptimelabs.io/d/aOf5yan4z/incident-management?orgId=1&refresh=10s>",n/a,0,,,,,,203,True
-132,1705415033034429200,Daniel,online-boutique,3.0,,1459.0,thats the correct url remember to scroll down to see them,n/a,0,,,,,,57,False
-133,1705415059708929000,Daniel,online-boutique,3.0,,1459.0,oh snap just checked the dashboard is broken ,n/a,0,,,,,,45,False
-134,1705415065378099000,aydin.ghane@albelli.com,online-boutique,3.0,,1459.0,"```Incident Manager:
-
-First line: Jane Zand Maggee```",n/a,0,,,,,,53,False
-135,1705415071813859000,Daniel,online-boutique,3.0,,1459.0,maybe thats to do with the outage too ,n/a,0,,,,,,38,False
-136,1705415078179379000,Daniel,online-boutique,3.0,,1459.0,need to check into this ,n/a,0,,,,,,24,False
-137,1705415108797879000,Daniel,online-boutique,3.0,,1459.0,Jane was before you we really need to update that!,n/a,0,,,,,,50,False
-138,1705415138145819000,UptimeLabs,online-boutique,3.0,,1459.0,Start retro and feedback,n/a,0,,,,,,24,False
-139,1705415154528229000,Daniel,online-boutique,3.0,,1459.0,I'll have a look it to my payment change Shay can you check yours too?,n/a,0,,,,,,70,True
-140,1705489420270119000,Shay,online-boutique,14.0,,1460.0,30 mins into this promotional campaign and its already proving to be a great success,n/a,0,,,,,,84,False
-141,1705489424192229000,Bez,online-boutique,14.0,,1460.0,I'm seeing a lot of sales coming in,n/a,0,,,,,,35,False
-142,1705489428105279000,Tanya,online-boutique,14.0,,1460.0,It was definitely a great idea offering a free tote for every $50 spent,n/a,0,,,,,,71,False
-143,1705489432032728800,Daniel,online-boutique,14.0,,1460.0,People love free stuff,n/a,0,,,,,,22,False
-144,1705489436110129200,Bez,online-boutique,14.0,,1460.0,"Sales are definitely looking good team. If we keep this up, Ill treat the whole team to dinner next friday",n/a,0,,,,,,106,False
-145,1705489440084548900,Hamed,online-boutique,14.0,,1460.0,"In that case, Im going to have my eyes glued to the monitoring services to make sure there are no hiccups",n/a,0,,,,,,105,False
-146,1705489445051629000,Tanya,online-boutique,14.0,,1460.0,"Yeah guys. Just be vigilant. Because theres such a high volume of sales, something could easily go wrong",n/a,0,,,,,,104,False
-147,1705489450030069000,Tinus,online-boutique,14.0,,1460.0,"Remember everyone, if theres anything unusual, raise the flag immediately. Heres to a hitch-free sale!",n/a,0,,,,,,102,False
-148,1705489451153649200,UptimeLabs,online-boutique,14.0,,1460.0,Start level 14,n/a,0,,,,,,14,False
-149,1705489508008308000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,Clicked Start button,n/a,0,,,,,,20,False
-150,1705489508578219000,UptimeLabs,online-boutique,14.0,,1460.0,":alarm_clock: - You have 20 minutes to resolve the outage, good luck! You can type `/help` if you need any reminders.",n/a,0,,,,,,117,False
-151,1705489512602349000,Bob,online-boutique,14.0,,1460.0,"Team, we have a situation. Customers are reporting they arent receiving confirmation emails.",n/a,0,,,,,,92,False
-152,1705489517595959000,Shay,online-boutique,14.0,,1460.0,That is not good,n/a,0,,,,,,16,False
-153,1705489523597459200,Tanya,online-boutique,14.0,,1460.0,I knew things were too good to be true,n/a,0,,,,,,38,False
-154,1705489528635529000,Tinus,online-boutique,14.0,,1460.0,We need to get those emails sent out as quickly as possible,n/a,0,,,,,,59,False
-155,1705489533642229000,Daniel,online-boutique,14.0,,1460.0,Im checking our email service logs now. Hold on...,n/a,0,,,,,,50,False
-156,1705489536328449000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"OK, I raise an incident",n/a,0,,,,,,23,False
-157,1705489538690209000,Tanya,online-boutique,14.0,,1460.0,And Ill check to see if the problem is platform related,n/a,0,,,,,,55,False
-158,1705489543655019000,Bez,online-boutique,14.0,,1460.0,"As well as impacting our sales, this will impact the trust customers have in us. Lets get this incident fixed ASAP ",n/a,0,,,,,,115,False
-159,1705489548684088800,Bob,online-boutique,14.0,,1460.0,"@Peter Forgacs, please guide us through the next steps. We need to act fast and resolve this.",n/a,0,,,,,,93,False
-160,1705489564568019000,peter.forgacs,online-boutique,14.0,,1460.0,*Incident Number INC100070:* Customers aren't receiving confirmation emails,n/a,0,,,,,,75,False
-161,1705489564688589000,UptimeLabs,online-boutique,14.0,,1460.0,:star: Incident record created,n/a,0,,,,,,30,False
-162,1705489602541089000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,We are investigating this issue. I will update you when we know more,n/a,0,,,,,,68,False
-163,1705489667331239000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Let's form an investigation team: Shay, Daniel, Tanya",n/a,0,,,,,,53,False
-164,1705489672512099000,UptimeLabs,online-boutique,14.0,,1460.0,:star: Form an effective investigation team,n/a,0,,,,,,43,False
-165,1705489676234219000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"I see these errors in our logs: `""message"":""failed to send order confirmation to \""<mailto:someone@example.com|someone@example.com>\"": rpc error: code = Unavailable desc = connection error: desc = \""transport: Error while dialing: dial tcp 172.20.120.199:5000: connect: connection refused\"""",""severity"":""warning"",""timestamp"":""2024-01-17T11:07:03.909808651Z""`",n/a,0,,,,,,358,False
-166,1705489677579118800,Tanya,online-boutique,14.0,,1460.0,Yeah here to help ,n/a,0,,,,,,18,False
-167,1705489708906979000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,Is there anybody who could reproduce this issue with not getting emails?,n/a,0,,,,,,72,True
-168,1705489733311089200,Tanya,online-boutique,14.0,,1460.0,Ohhh interesting ,n/a,0,,,,,,17,False
-169,1705489742142049000,Daniel,online-boutique,14.0,,1460.0,I will check it ,n/a,0,,,,,,16,False
-170,1705489762083638800,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"OK, what did we release recently related to emails?",n/a,0,,,,,,51,True
-171,1705489773879669000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Shay, would you check this? :point_up:",n/a,0,,,,,,38,True
-172,1705489805652039200,Daniel,online-boutique,14.0,,1460.0,Ok i did not get a confirmation email with the test account ,n/a,0,,,,,,60,False
-173,1705489823753829000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Hamed S, Could you please check to resolve this issue? Do you have any knowledge about the issue we are facing?",n/a,0,,,,,,111,True
-174,1705489846126249000,Shay,online-boutique,14.0,,1460.0,There is this change CHG89352:EmailService:version 0.8.0-13.0.0 deployed:PROD:Daniel B,n/a,0,,,,,,86,False
-175,1705489861574999000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Daniel, Shay, Is it safe to roll back this deployment?",n/a,0,,,,,,54,True
-176,1705489862700049000,Hamed,online-boutique,14.0,,1460.0,Yeah will have a look at it now ,n/a,0,,,,,,32,False
-177,1705489865216079000,UptimeLabs,online-boutique,14.0,,1460.0,:star: Escalating when required,n/a,0,,,,,,31,False
-178,1705489868835549200,UptimeLabs,online-boutique,14.0,,1460.0,:alarm_clock: - You are 6 minutes in have you qualified the problem? You can type `/help` if you need any reminders.,n/a,0,,,,,,116,True
-179,1705489876480238800,UptimeLabs,online-boutique,14.0,,1460.0,:bulb: Hint: Assign criticality level to the incident,n/a,0,,,,,,53,False
-180,1705489882585419000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,Incident : I raise the severity to high,n/a,0,,,,,,39,False
-181,1705489884307669000,Daniel,online-boutique,14.0,,1460.0,Yeah that change is safe to roll back ,n/a,0,,,,,,38,False
-182,1705489891851908900,UptimeLabs,online-boutique,14.0,,1460.0,:star: Restoration over root cause analysis,n/a,0,,,,,,43,False
-183,1705489902713059000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"we are still investigating, I will update you later too",n/a,0,,,,,,55,False
-184,1705489915991089200,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Daniel, would you roll back?",n/a,0,,,,,,28,True
-185,1705489926060589000,Daniel,online-boutique,14.0,,1460.0,I can see that the logs do not look healthy for email service ,n/a,0,,,,,,62,False
-186,1705489932194369000,Daniel,online-boutique,14.0,,1460.0,On it now ,n/a,0,,,,,,10,False
-187,1705489944853699000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Bob, how many customer are effected not getting confirmation emails?",n/a,0,,,,,,68,True
-188,1705489953315339000,Bob,online-boutique,14.0,,1460.0,Let me check ,n/a,0,,,,,,13,False
-189,1705489968078089000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Daniel, is it possible to e.g. restart the email service or use a new one??",n/a,0,,,,,,75,True
-190,1705489981394209000,Daniel,online-boutique,14.0,,1460.0,I can restart it as well ,n/a,0,,,,,,25,False
-191,1705489990158279000,Daniel,online-boutique,14.0,,1460.0,roll back in progress now but ,n/a,0,,,,,,30,False
-192,1705489995515328800,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Daniel, Please do, and come back to me when that is done",n/a,0,,,,,,56,False
-193,1705489999277229000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,thanks,n/a,0,,,,,,6,False
-194,1705490018108469000,Bob,online-boutique,14.0,,1460.0,OK it seems that all customers are effected ,n/a,0,,,,,,44,False
-195,1705490039712469000,Daniel,online-boutique,14.0,,1460.0,OK roll back is completed ,n/a,0,,,,,,26,False
-196,1705490048173139200,Daniel,online-boutique,14.0,,1460.0,i can check with the test account again now ,n/a,0,,,,,,44,False
-197,1705490052648829000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,Thanks Bob and Daniel,n/a,0,,,,,,21,False
-198,1705490088767699000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Bob, Could you check it again? we may fixed this issue",n/a,0,,,,,,54,True
-199,1705490089670429000,Shay,online-boutique,14.0,,1460.0,Could the issue have anything to do with the increased sales due to the promo we are runing ?,n/a,0,,,,,,93,True
-200,1705490098059588900,Daniel,online-boutique,14.0,,1460.0,Still have the same issue ,n/a,0,,,,,,26,False
-201,1705490108958029000,Bob,online-boutique,14.0,,1460.0,Customers are also reporting the same issue ,n/a,0,,,,,,44,False
-202,1705490109066239200,UptimeLabs,online-boutique,14.0,,1460.0,":alarm_clock: - Half your time is up, stay focused. You can type `/help` if you need any reminders.",n/a,0,,,,,,99,False
-203,1705490133751399200,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Daniel, Could you check Shay's comment? Could the email server handle this high traffic?",n/a,0,,,,,,88,True
-204,1705490157233228800,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"if the traffic is the problem, could we scale the email server up?",n/a,0,,,,,,66,True
-205,1705490167003069000,UptimeLabs,online-boutique,14.0,,1460.0,:star: Know your team and their roles,n/a,0,,,,,,37,False
-206,1705490172260619000,Daniel,online-boutique,14.0,,1460.0,Yeah thats interesting,n/a,0,,,,,,22,False
-207,1705490211730769000,Daniel,online-boutique,14.0,,1460.0,I can see the error Email transmission failed: Message rejected or timed out during downstream processing ,n/a,0,,,,,,106,False
-208,1705490234445739000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Daniel, How could we solve this problem?",n/a,0,,,,,,40,True
-209,1705490237876009000,Daniel,online-boutique,14.0,,1460.0,‘Looking at that log message I'm thinking the daily sending quota has been exceeded leading Amazon SES (who manage our email sending service) to regulate and restrict them,n/a,0,,,,,,171,False
-210,1705490286031179000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Daniel, Hamed S, Shay, What options we have to fix this issue?",n/a,0,,,,,,62,True
-211,1705490287637219000,UptimeLabs,online-boutique,14.0,,1460.0,:star: Asking questions to validate impact of the problem,n/a,0,,,,,,57,False
-212,1705490309850629000,Tanya,online-boutique,14.0,,1460.0,"Proficient Cloud Services is our Managed Service Provider (MSP) for AWS. Whenever we've faced issues or needed service changes with AWS in the past, we've routed our communications through them",n/a,0,,,,,,193,False
-213,1705490329185599000,Tanya,online-boutique,14.0,,1460.0,Should contact them to get the quota increased ,n/a,0,,,,,,47,False
-214,1705490342257309000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Tanya, Could you help with this? Or who is the best person to ask?",n/a,0,,,,,,66,True
-215,1705490361486639000,Tanya,online-boutique,14.0,,1460.0,Yeah i have th contact info will get on to them now ,n/a,0,,,,,,52,False
-216,1705490374774709000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"it seems we reach the email quota, this is the root cause of the issue, we are working on the solution",n/a,0,,,,,,102,False
-217,1705490383916809000,UptimeLabs,online-boutique,14.0,,1460.0,:star: Qualify the problem,n/a,0,,,,,,26,False
-218,1705490399396629000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Tanya, OK, please ask them to raise the quota, if possible",n/a,0,,,,,,58,False
-219,1705490401658679000,Tanya,online-boutique,14.0,,1460.0,Ok have raised the ticket AWS Support Case ID: 271928921403,n/a,0,,,,,,59,False
-220,1705490405332979000,UptimeLabs,online-boutique,14.0,,1460.0,:star: Send regular business comms,n/a,0,,,,,,34,False
-221,1705490416056039200,Tanya,online-boutique,14.0,,1460.0,waiting on a time scale ,n/a,0,,,,,,24,False
-222,1705490442407469000,Tanya,online-boutique,14.0,,1460.0,ok given an ETA of 60mins,n/a,0,,,,,,25,False
-223,1705490442863579100,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Tanya, Could we speed up this process somehow?",n/a,0,,,,,,46,True
-224,1705490451767019000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"great, thanks Tanya",n/a,0,,,,,,19,False
-225,1705490462039199200,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Daniel, Bob, would you check, if this solved the issue?",n/a,0,,,,,,55,True
-226,1705490469440479000,UptimeLabs,online-boutique,14.0,,1460.0,:alarm_clock: - You have less than 4 minutes. You can type `/help` if you need any reminders.,n/a,0,,,,,,93,False
-227,1705490480141558800,Bez,online-boutique,14.0,,1460.0,That is not acceptable - it goes against our SLA that P1s should be fixed in under 15 mins,n/a,0,,,,,,90,False
-228,1705490494317969200,Daniel,online-boutique,14.0,,1460.0,Do we not need to wait on them to raise the quota ,n/a,0,,,,,,50,False
-229,1705490509197029000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Daniel, what do you suggest?",n/a,0,,,,,,28,True
-230,1705490531499709000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Bez, we are working on the solution, we will update you when the issue is fixed",n/a,0,,,,,,79,False
-231,1705490536840889000,Bez,online-boutique,14.0,,1460.0,Im on to my contact to get this escalated ,n/a,0,,,,,,42,False
-232,1705490542755269000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Tanya, Any update?",n/a,0,,,,,,18,True
-233,1705490548222519000,Bez,online-boutique,14.0,,1460.0,They are working on it now ,n/a,0,,,,,,27,False
-234,1705490556549398800,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,thanks Bez,n/a,0,,,,,,10,False
-235,1705490562301999000,Tanya,online-boutique,14.0,,1460.0,ETA has gone down on the ticket now ,n/a,0,,,,,,36,False
-236,1705490570883049000,Tanya,online-boutique,14.0,,1460.0,should only be a couple of mins now ,n/a,0,,,,,,36,False
-237,1705490584152079000,Daniel,online-boutique,14.0,,1460.0,Yeah should be an easy fix no there side ,n/a,0,,,,,,41,False
-238,1705490584208509000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,thanks Tanya,n/a,0,,,,,,12,False
-239,1705490589553979000,UptimeLabs,online-boutique,14.0,,1460.0,":alarm_clock: - You have less than 2 minutes remaining, remember communication is key. You can type `/help` if you need any reminders.",n/a,0,,,,,,134,False
-240,1705490614404429000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Daniel, What do you mean?",n/a,0,,,,,,25,True
-241,1705490621540149000,Bob,online-boutique,14.0,,1460.0,Looks like emails are going through now,n/a,0,,,,,,39,False
-242,1705490626813249000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,wohooo,n/a,0,,,,,,6,False
-243,1705490627543989000,Tanya,online-boutique,14.0,,1460.0,Well done everyone!,n/a,0,,,,,,19,False
-244,1705490634688389000,Tinus,online-boutique,14.0,,1460.0,Are we sure its fixed?,n/a,0,,,,,,22,True
-245,1705490635604769000,Tanya,online-boutique,14.0,,1460.0,They have scaled it up now ,n/a,0,,,,,,27,False
-246,1705490638700689200,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Daniel, Would you check it too?",n/a,0,,,,,,31,True
-247,1705490641548349000,Daniel,online-boutique,14.0,,1460.0,Looks like it to me - logs for email service now look healthy,n/a,0,,,,,,61,False
-248,1705490645335329000,Daniel,online-boutique,14.0,,1460.0,Yeah on it ,n/a,0,,,,,,11,False
-249,1705490648507458800,Tinus,online-boutique,14.0,,1460.0,@Peter Forgacs what do you think?,n/a,0,,,,,,33,True
-250,1705490655098709000,UptimeLabs,online-boutique,14.0,,1460.0,:star: Validate the fix,n/a,0,,,,,,23,False
-251,1705490659967438800,Daniel,online-boutique,14.0,,1460.0,confirmation email coming through as well ,n/a,0,,,,,,42,False
-252,1705490679341859000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Bob, Is there still customers without email notification?",n/a,0,,,,,,57,True
-253,1705490688062628900,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,"Tinus, I do a last check",n/a,0,,,,,,24,False
-254,1705490703469849000,Bob,online-boutique,14.0,,1460.0,they are reporting the email coming in now ,n/a,0,,,,,,43,False
-255,1705490719418239200,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,We contacted Proficient Cloud Services is our Managed Service Provider (MSP) for AWS,n/a,0,,,,,,84,False
-256,1705490724733509000,UptimeLabs,online-boutique,14.0,,1460.0,Start drill retro and feedback,n/a,0,,,,,,30,False
-257,1705490725415139000,Bob,online-boutique,14.0,,1460.0,looks like its fixed ,n/a,0,,,,,,21,False
-258,1705490727349529000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,they fixed this issue on their side,n/a,0,,,,,,35,False
-259,1705490752222779100,UptimeLabs,online-boutique,14.0,,1460.0,:star: Confirm resolution with the business,n/a,0,,,,,,43,False
-260,1705490770886619100,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,the problem started around 12:05 today and was fixed 12:25,n/a,0,,,,,,58,False
-261,1705490802653559000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,the root cause was the amount of the email we are sending and the not optimail configuration of email server,n/a,0,,,,,,108,False
-262,1705490811604695000,peter.forgacs@albelli.com,online-boutique,14.0,,1460.0,Clicked Start_feedback button,n/a,0,,,,,,29,False
-263,1705490867156909000,UptimeLabs,online-boutique,14.0,,1460.0,Submission successful,n/a,0,,,,,,21,False
-264,1705492240370848800,Tinus,online-boutique,1.0,,1461.0,"Hi @Conail Tierney, great to have you aboard at online boutique!",n/a,0,,,,,,64,False
-265,1705492245792209000,Tinus,online-boutique,1.0,,1461.0,Alias name gif,n/a,0,,,,,,14,False
-266,1705492259137499100,UptimeLabs,online-boutique,1.0,,1461.0,Start lvl 1,n/a,0,,,,,,11,False
-267,1705492988928633900,conail@uptimelabs.io,online-boutique,1.0,,1461.0,Clicked Start button,n/a,0,,,,,,20,False
-268,1705492989454859000,Tinus,online-boutique,1.0,,1461.0,We're really excited you've joined and I'd like to introduce you to the team.,n/a,0,,,,,,77,False
-269,1705492994463189000,Tinus,online-boutique,1.0,,1461.0,@Shay kick us off will you mate?,n/a,0,,,,,,32,True
-270,1705492999453759000,Shay,online-boutique,1.0,,1461.0,"Sure @Tinus, hey @Conail Tierney great to see you, I've not been here long but I'm sure we'll be working closely together. Who's next?",n/a,0,,,,,,134,True
-271,1705493009452779000,Bob,online-boutique,1.0,,1461.0,"Hi @Conail Tierney if we do get any issues reported by our customers, you'll probably hear from me first. Hopefully I won't be talking to you much, touch wood LOL",n/a,0,,,,,,162,False
-272,1705493019486039000,Daniel,online-boutique,1.0,,1461.0," Hey @Conail Tierney unfortunately I hear rather too much from Bob, we've got some teething issues here but I'm hopeful with you onboard we'll improve our stability.",n/a,0,,,,,,165,False
-273,1705493029459669000,Tinus,online-boutique,1.0,,1461.0,Oh and that just leaves Bez. @Bez have you got some time to say hi to @Conail Tierney?,n/a,0,,,,,,86,True
-274,1705493034487319000,Bez,online-boutique,1.0,,1461.0,"Of course, hey there @Conail Tierney - Tinus has been bigging you up so it's great to meet you. Have the team sung the boutique song yet. Tinus plays guitar and Shay sings harmony lol?",n/a,0,,,,,,184,True
-275,1705493042478369000,Tinus,online-boutique,1.0,,1461.0,Good thanks everyone for the intros,n/a,0,,,,,,35,False
-276,1705493046497699000,UptimeLabs,online-boutique,1.0,,1461.0,tools,n/a,0,,,,,,5,False
-277,1705502059992399000,Bez,online-boutique,16.0,,1462.0,Amazing progress lately our all your work on ad optimization has been working really well we're seeing more sales than ever!,n/a,0,,,,,,124,False
-278,1705502067829709000,Tinus,online-boutique,16.0,,1462.0,"Absolutely, but we've still got plenty of work to do. Daniel and Tanya are fully focused on the new feature only reach out tp them if its abosutely essential.",n/a,0,,,,,,158,False
-279,1705502072790289000,UptimeLabs,online-boutique,16.0,,1462.0,Start level 16,n/a,0,,,,,,14,False
-280,1705502107723671800,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,Clicked Start button,n/a,0,,,,,,20,False
-281,1705502108205309000,UptimeLabs,online-boutique,16.0,,1462.0,":alarm_clock: - You have 20 minutes to resolve the outage, good luck! You can type `/help` if you need any reminders.",n/a,0,,,,,,117,False
-282,1705502112325779000,Bez,online-boutique,16.0,,1462.0,I'm seeing a drop in sales any idea whats going on?,n/a,0,,,,,,51,True
-283,1705502115335438800,Bez,online-boutique,16.0,,1462.0,We're on track to meeting the quarters target can we check if theres anny issues?,n/a,0,,,,,,81,True
-284,1705502119306819000,Tinus,online-boutique,16.0,,1462.0,@Marius de Reus I'm supporting on a sales call can you investigate?,n/a,0,,,,,,67,True
-285,1705502120205249000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,on it,n/a,0,,,,,,5,False
-286,1705502192307559000,Shay,online-boutique,16.0,,1462.0,hey guys im online anything you need?,n/a,0,,,,,,37,True
-287,1705502208635249000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,Daniel can you join. Is something down?,n/a,0,,,,,,39,True
-288,1705502261014509000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,"I see a deployment of the checkout today by Shay, can we monitor if that is working?",n/a,0,,,,,,84,True
-289,1705502265190839000,Shay,online-boutique,16.0,,1462.0,Daniel currently working on a new feature i can get him on,n/a,0,,,,,,58,False
-290,1705502282569589000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,Bob is anything reported from customer side?,n/a,0,,,,,,44,True
-291,1705502288383619000,Shay,online-boutique,16.0,,1462.0,yeah ill look into checkout now,n/a,0,,,,,,31,False
-292,1705502345982039000,Bob,online-boutique,16.0,,1462.0,right now im not getting any reports relating to any issues,n/a,0,,,,,,59,False
-293,1705502356910669000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,"For me the shop works as well, cannot reproduce an issue",n/a,0,,,,,,56,False
-294,1705502370417388800,Shay,online-boutique,16.0,,1462.0,checkout changes look healthy to me,n/a,0,,,,,,35,False
-295,1705502385873899000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,Bez where did you see the drop? On the tech side we don't see red flags,n/a,0,,,,,,71,True
-296,1705502414172099000,Daniel,online-boutique,16.0,,1462.0,"sorry was busy earlier, what seems to be the issue?",n/a,0,,,,,,51,True
-297,1705502426575619000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,Daniel Bez reported a drop in sales,n/a,0,,,,,,35,False
-298,1705502462645359000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,So we investigate if there is a tech reason for this,n/a,0,,,,,,52,False
-299,1705502467341629000,Bez,online-boutique,16.0,,1462.0,ive just been handed the sales reports and they seem to be drop in the amount of sales we are getting,n/a,0,,,,,,101,False
-300,1705502468519149000,UptimeLabs,online-boutique,16.0,,1462.0,:alarm_clock: - You are 6 minutes in have you qualified the problem? You can type `/help` if you need any reminders.,n/a,0,,,,,,116,True
-301,1705502488102769000,UptimeLabs,online-boutique,16.0,,1462.0,:star: Asking questions to validate impact of the problem,n/a,0,,,,,,57,False
-302,1705502493308639000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,Bez since when?,n/a,0,,,,,,15,True
-303,1705502517886419000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,"And is it a hard drop (as if a system started to fail), or gradual (as in customers might just stay away)...",n/a,0,,,,,,108,False
-304,1705502554012878800,Bez,online-boutique,16.0,,1462.0,the report was for this weeks sales,n/a,0,,,,,,35,False
-305,1705502587737529000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,Bez and on my follow up questions?,n/a,0,,,,,,34,True
-306,1705502660904748800,Daniel,online-boutique,16.0,,1462.0,recent changes look good me,n/a,0,,,,,,27,False
-307,1705502689810729000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,"Bez if you want us to further investigate, I need more info / answers on my questions...",n/a,0,,,,,,88,False
-308,1705502690297139000,Bez,online-boutique,16.0,,1462.0,"its not a large difference in sales like a major system is down, but it is noticeable that something is wrong ",n/a,0,,,,,,110,False
-309,1705502708763239000,UptimeLabs,online-boutique,16.0,,1462.0,":alarm_clock: - Half your time is up, stay focused. You can type `/help` if you need any reminders.",n/a,0,,,,,,99,False
-310,1705502709778769000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,could it be anything marketing / advertising related?,n/a,0,,,,,,53,True
-311,1705502729189049000,Bez,online-boutique,16.0,,1462.0,could be ill look into it,n/a,0,,,,,,25,False
-312,1705502767934349000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,Tanya Bez is reporting a drop in sales this week. Can you check if adservice and recommendation service are working as we expect? I saw you did recent deployments,n/a,0,,,,,,162,True
-313,1705502791658199000,Daniel,online-boutique,16.0,,1462.0,hold on im noticing that im not getting any recommendations on the  platform,n/a,0,,,,,,76,False
-314,1705502828947839000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,"Ah, that fits with my assumption towards Tanya. Can you pair up with Tanya on this Daniel?",n/a,0,,,,,,90,True
-315,1705502860534909000,marius.dereus,online-boutique,16.0,,1462.0,*Incident Number INC100037:* recommendations not working as expected,n/a,0,,,,,,68,False
-316,1705502860601949000,UptimeLabs,online-boutique,16.0,,1462.0,:star: Incident record created,n/a,0,,,,,,30,False
-317,1705502882708229000,Daniel,online-boutique,16.0,,1462.0,yeah ill reach out to Tanya ,n/a,0,,,,,,28,False
-318,1705502890667959000,Daniel,online-boutique,16.0,,1462.0,and keep you updated,n/a,0,,,,,,20,False
-319,1705502896712649200,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,We're investigating a drop of sales this week. Might be related to the recommendation service. Cannot gauge the impact yet.,n/a,0,,,,,,123,False
-320,1705502936523329000,Tanya,online-boutique,16.0,,1462.0,"Sorry for my absence guys, im currently looking into the recommendation service now",n/a,0,,,,,,83,False
-321,1705502955913959000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,"Daniel and Tanya, look further back than the deployment of today, as this is about sales of the week, not only today",n/a,0,,,,,,116,False
-322,1705502976394469000,UptimeLabs,online-boutique,16.0,,1462.0,:bulb: Hint: Assign criticality level to the incident,n/a,0,,,,,,53,False
-323,1705502986751478800,UptimeLabs,online-boutique,16.0,,1462.0,:star: Form a working theory,n/a,0,,,,,,28,False
-324,1705503006701499000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,Bez how critical is this for the business?,n/a,0,,,,,,42,True
-325,1705503036795239000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,"I want to set a level to this incident, but need that info for that",n/a,0,,,,,,67,False
-326,1705503037838759000,Tanya,online-boutique,16.0,,1462.0,your right i recently made a change to recommendation service which is currently broken the system,n/a,0,,,,,,98,False
-327,1705503053508469000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,Tanya can you quickly revert that change?,n/a,0,,,,,,41,True
-328,1705503071561379000,UptimeLabs,online-boutique,16.0,,1462.0,:star: Restoration over root cause analysis,n/a,0,,,,,,43,False
-329,1705503072228199000,Tanya,online-boutique,16.0,,1462.0,there's too many dependencies to rollback the change but i can get a fix out ,n/a,0,,,,,,77,False
-330,1705503079924068900,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,"great, please do",n/a,0,,,,,,16,False
-331,1705503088098609000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,and check afterwards that it is actually working,n/a,0,,,,,,48,False
-332,1705503089050968800,Tanya,online-boutique,16.0,,1462.0,i can get it done in 2 mins,n/a,0,,,,,,27,False
-333,1705503094944819000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,perfect,n/a,0,,,,,,7,False
-334,1705503124375919000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,"Don't know the amount of impact on the business, so no level set. But we think it will be fixed in few minutes...",n/a,0,,,,,,113,False
-335,1705503146831089000,UptimeLabs,online-boutique,16.0,,1462.0,:star: Send regular business comms,n/a,0,,,,,,34,False
-336,1705503150569009200,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,It was caused by a change in the recommendation service that broke recommendations.,n/a,0,,,,,,83,False
-337,1705503156322859000,Bob,online-boutique,16.0,,1462.0,that makes sense the customers wouldn't notice if the service was down,n/a,0,,,,,,70,False
-338,1705503162035229000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,indeed,n/a,0,,,,,,6,False
-339,1705503166709419000,Tanya,online-boutique,16.0,,1462.0,applying fix now,n/a,0,,,,,,16,False
-340,1705503189244088800,UptimeLabs,online-boutique,16.0,,1462.0,":alarm_clock: - You have less than 2 minutes remaining, remember communication is key. You can type `/help` if you need any reminders.",n/a,0,,,,,,134,False
-341,1705503192622279000,Tanya,online-boutique,16.0,,1462.0,recommendations should be working again now,n/a,0,,,,,,43,False
-342,1705503194931669000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,Tanya please test our logs etc to see if it actually works,n/a,0,,,,,,58,False
-343,1705503198587629000,Tanya,online-boutique,16.0,,1462.0,@Marius de Reus can you check too,n/a,0,,,,,,33,False
-344,1705503205323779000,UptimeLabs,online-boutique,16.0,,1462.0,:star: Qualify the problem,n/a,0,,,,,,26,False
-345,1705503210105529000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,Bez our sales should go up again,n/a,0,,,,,,32,False
-346,1705503221543029000,Tinus,online-boutique,16.0,,1462.0,have we resolved the incident?,n/a,0,,,,,,30,True
-347,1705503238318309000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,We think the problem is solved now. Will actively monitor the solution.,n/a,0,,,,,,71,False
-348,1705503255368908800,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,"For now I would say yes, but we will monitor Tinus",n/a,0,,,,,,50,False
-349,1705503266849649000,Daniel,online-boutique,16.0,,1462.0,the service is working for me now,n/a,0,,,,,,33,False
-350,1705503285133499000,UptimeLabs,online-boutique,16.0,,1462.0,:star: Confirm resolution with the business,n/a,0,,,,,,43,False
-351,1705503298236259000,Bez,online-boutique,16.0,,1462.0,i can confirm sales are going back up as we speak!!,n/a,0,,,,,,51,False
-352,1705503307709829000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,"Thanks everyone, declare this one solved",n/a,0,,,,,,40,False
-353,1705503312537879000,UptimeLabs,online-boutique,16.0,,1462.0,:star: Validate the fix,n/a,0,,,,,,23,False
-354,1705503324404248800,UptimeLabs,online-boutique,16.0,,1462.0,Start drill retro and feedback,n/a,0,,,,,,30,False
-355,1705503362594552000,marius.dereus@albelli.com,online-boutique,16.0,,1462.0,Clicked Start_feedback button,n/a,0,,,,,,29,False
-356,1705503406091229000,UptimeLabs,online-boutique,16.0,,1462.0,Submission successful,n/a,0,,,,,,21,False
-357,1705532107055379000,UptimeLabs,online-boutique,12.0,,1463.0,Start Drill,n/a,0,,,,,,11,False
-358,1705532140024464000,craig.norford@uptimelabs.io,online-boutique,12.0,,1463.0,Clicked Start button,n/a,0,,,,,,20,False
-359,1705532140651529000,Bez,online-boutique,12.0,,1463.0,"So, business wise, we are on target for this months sales. Having said that we are too close to the target. We need every penny of every minute to stay on course.",n/a,0,,,,,,162,False
-360,1705532147643159000,Bez,online-boutique,12.0,,1463.0,Please make sure systems are healthy so we can hit target.,n/a,0,,,,,,58,False
-361,1705532151670809000,Tinus,online-boutique,12.0,,1463.0,"Welcome to the team @Craig Norford. everone is here to help, how are you finding things so far?",n/a,0,,,,,,95,True
-362,1705532157663339000,Bob,online-boutique,12.0,,1463.0,"@Tinus we're starting to get some mixed reports of customers not able to access the site, can your team investigate?",n/a,0,,,,,,116,True
-363,1705532160730399000,Tinus,online-boutique,12.0,,1463.0,"Yes @Craig Norford is incident manager today, Craig Norford can you drive this?",n/a,0,,,,,,79,True
-364,1705532170652089000,Bez,online-boutique,12.0,,1463.0,"Hey folks, what is going on? I can see a big drop on payments hitting our accounts",n/a,0,,,,,,82,True
-365,1705532172740879000,Tinus,online-boutique,12.0,,1463.0,it could be a load issue,n/a,0,,,,,,24,False
-366,1705532174739789000,Daniel,online-boutique,12.0,,1463.0,There were a few deployments this morning,n/a,0,,,,,,41,False
-367,1705532178748569000,Daniel,online-boutique,12.0,,1463.0,I'm at your service,n/a,0,,,,,,19,False
-368,1705532180735989000,Tanya,online-boutique,12.0,,1463.0,I'm online too,n/a,0,,,,,,14,False
-369,1705532190651979000,Bob,online-boutique,12.0,,1463.0,What do I need to tell the angry customers?,n/a,0,,,,,,43,True
-370,1705532284656039000,craig.norford@uptimelabs.io,online-boutique,12.0,,1463.0,bob whats the impact of the issue?,n/a,0,,,,,,34,True
-371,1705532298116699000,Bob,online-boutique,12.0,,1463.0,"The frontend service is degraded, affecting user experience globally. Let's prioritize this. Have you confirmed the issue and set a severity level yet?",n/a,0,,,,,,151,True
-372,1705532314774589200,craig.norford@uptimelabs.io,online-boutique,12.0,,1463.0,daniel what are the latest changes,n/a,0,,,,,,34,False
-373,1705532341063849000,Daniel,online-boutique,12.0,,1463.0,The most recent changes are CHG89348 and CHG89350 according to logs.,n/a,0,,,,,,68,False
-374,1705532348018719000,craig.norford@uptimelabs.io,online-boutique,12.0,,1463.0,tell eme more about the changes,n/a,0,,,,,,31,False
-375,1705532361919799000,Daniel,online-boutique,12.0,,1463.0,"CHG89348 relates to the latest deployment on the frontend service, and CHG89350 concerns the payment service update.",n/a,0,,,,,,116,False
-376,1705532374785038800,craig.norford@uptimelabs.io,online-boutique,12.0,,1463.0,daniel rollback the changes to front end service,n/a,0,,,,,,48,False
-377,1705532389736359000,Daniel,online-boutique,12.0,,1463.0,I'll look into the frontend issue and start rollback immediately.,n/a,0,,,,,,65,False
-378,1705586583993969000,Bez,online-boutique,4.0,,1464.0,Hey team :) can everyone listen up for today's briefing?,n/a,0,,,,,,56,True
-379,1705586592870019000,Bez,online-boutique,4.0,,1464.0,Let me know if you're here,n/a,0,,,,,,26,False
-380,1705586596825079000,Hamed,online-boutique,4.0,,1464.0,I'm here :grin:,n/a,0,,,,,,15,False
-381,1705586599799778800,Daniel,online-boutique,4.0,,1464.0,Me too!,n/a,0,,,,,,7,False
-382,1705586601903249200,Shay,online-boutique,4.0,,1464.0,Present sir!,n/a,0,,,,,,12,False
-383,1705586605876779000,Bob,online-boutique,4.0,,1464.0,here,n/a,0,,,,,,4,False
-384,1705586607868539100,Tinus,online-boutique,4.0,,1464.0,Morning boss,n/a,0,,,,,,12,False
-385,1705586610847499000,Tanya,online-boutique,4.0,,1464.0,:wave:,n/a,0,,,,,,6,False
-386,1705586620765219000,Bez,online-boutique,4.0,,1464.0,"Nice one folks! Cheer up Bob, I've got some good news :smiley:",n/a,0,,,,,,62,False
-387,1705586623841109000,UptimeLabs,online-boutique,4.0,,1464.0,Start lvl 4,n/a,0,,,,,,11,False
-388,1705586671095304000,aydin.ghane@albelli.com,online-boutique,4.0,,1464.0,Clicked Start button,n/a,0,,,,,,20,False
-389,1705586671538168800,UptimeLabs,online-boutique,4.0,,1464.0,":alarm_clock: - You have 20 minutes to resolve the outage, good luck! You can type `/help` if you need any reminders.",n/a,0,,,,,,117,False
-390,1705586671674159000,Bez,online-boutique,4.0,,1464.0,As you know last month we invested considerably on buying advertisement in Roblox (for those who have not heard of the initiative yet: we are advertising in Metaverse),n/a,0,,,,,,167,False
-391,1705586677594919000,Bez,online-boutique,4.0,,1464.0,"The numbers so far look great, uptake was more then I expected and we see loads of traffic generated from Roblox",n/a,0,,,,,,112,False
-392,1705586683589789000,Tinus,online-boutique,4.0,,1464.0,"That is a great news Bez, but we are getting in to unchartered territory with the load levels in production",n/a,0,,,,,,107,False
-393,1705586687601829000,Tinus,online-boutique,4.0,,1464.0,IT team please be super vigilant on the systems. Load related failures are very unpredictable,n/a,0,,,,,,93,False
-394,1705586692618509000,Bez,online-boutique,4.0,,1464.0,Ah fair enough Tinus. Keep it online and we'll be swimming in money :) :money_with_wings:,n/a,0,,,,,,89,False
-395,1705586697610389000,Tanya,online-boutique,4.0,,1464.0,What is Roblox?,n/a,0,,,,,,15,True
-396,1705586700686569000,Hamed,online-boutique,4.0,,1464.0,Tanya revealing her age,n/a,0,,,,,,23,False
-397,1705586704670449000,Shay,online-boutique,4.0,,1464.0,Currently googling it... :laughing:,n/a,0,,,,,,35,False
-398,1705586706704869000,Bez,online-boutique,4.0,,1464.0,Don't be so rude!,n/a,0,,,,,,17,False
-399,1705586710685269000,Bez,online-boutique,4.0,,1464.0,Put simply Roblox is a kool virtual world for young people,n/a,0,,,,,,58,False
-400,1705586713754488800,Bez,online-boutique,4.0,,1464.0,Any other questions Tanya?,n/a,0,,,,,,26,True
-401,1705586718678009000,Tanya,online-boutique,4.0,,1464.0,"Nope, I'll just ask my son instead",n/a,0,,,,,,34,False
-402,1705586721729719000,Bez,online-boutique,4.0,,1464.0,Great! that's it then,n/a,0,,,,,,21,False
-403,1705586725672179000,Bez,online-boutique,4.0,,1464.0,"Good luck, Stay on it sales team",n/a,0,,,,,,32,False
-404,1705586732674489000,Tinus,online-boutique,4.0,,1464.0,"Ah, I've seen alerts on ad-service",n/a,0,,,,,,34,False
-405,1705586735728519000,Tinus,online-boutique,4.0,,1464.0,They look quite worrying,n/a,0,,,,,,24,False
-406,1705586736739758800,Bob,online-boutique,4.0,,1464.0,"Guys, big problem!!",n/a,0,,,,,,19,False
-407,1705586740693639000,Bob,online-boutique,4.0,,1464.0,I've got reports from multiple users that they can't access the site,n/a,0,,,,,,68,False
-408,1705586744063919000,aydin.ghane@albelli.com,online-boutique,4.0,,1464.0,Tell Bob!,n/a,0,,,,,,9,False
-409,1705586746738658800,Bob,online-boutique,4.0,,1464.0,Looks like we've got a random site failure,n/a,0,,,,,,42,False
-410,1705586750683168800,Tinus,online-boutique,4.0,,1464.0,"the load was quite high, could be a load issue",n/a,0,,,,,,46,False
-411,1705586758645719000,Daniel,online-boutique,4.0,,1464.0,Checking those alerts for adservice...,n/a,0,,,,,,38,False
-412,1705586762662969000,Shay,online-boutique,4.0,,1464.0,what's going on? what do I need to do,n/a,0,,,,,,37,True
-413,1705586764733119000,Daniel,online-boutique,4.0,,1464.0,I made a change to that last sprint... let me check,n/a,0,,,,,,51,False
-414,1705586768742819000,Bez,online-boutique,4.0,,1464.0,Guys someone tell me what's happening,n/a,0,,,,,,37,False
-415,1705586771727929000,Bez,online-boutique,4.0,,1464.0,Let's not ruin this good day,n/a,0,,,,,,28,False
-416,1705586773734399000,Daniel,online-boutique,4.0,,1464.0,Adservice is not running!,n/a,0,,,,,,25,False
-417,1705586776742559000,Tanya,online-boutique,4.0,,1464.0,We're on it Bez!,n/a,0,,,,,,16,False
-418,1705586823076039200,Shay,online-boutique,4.0,,1464.0,i was able to place an order,n/a,0,,,,,,28,False
-419,1705586830239039000,Shay,online-boutique,4.0,,1464.0,anyone else?,n/a,0,,,,,,12,True
-420,1705586844560569000,aydin.ghane@albelli.com,online-boutique,4.0,,1464.0,Checking,n/a,0,,,,,,8,False
-421,1705586892340859000,Daniel,online-boutique,4.0,,1464.0,im also able to place an order,n/a,0,,,,,,30,False
-422,1705586895644289000,aydin.ghane@albelli.com,online-boutique,4.0,,1464.0,I could place an order too,n/a,0,,,,,,26,False
-423,1705586909484529000,aydin.ghane@albelli.com,online-boutique,4.0,,1464.0,Can someone explain what adservice has to do with placing an order?,n/a,0,,,,,,67,True
-424,1705586926730089000,aydin.ghane@albelli.com,online-boutique,4.0,,1464.0,Checking last changes,n/a,0,,,,,,21,False
-425,1705586927589229000,Shay,online-boutique,4.0,,1464.0,Anything you would like me to look at?,n/a,0,,,,,,38,True
-426,1705586997079249000,Daniel,online-boutique,4.0,,1464.0,"nothing, i was just checking on what bob was saying about multiple users not being able to access site",n/a,0,,,,,,102,False
-427,1705587009699199000,aydin.ghane@albelli.com,online-boutique,4.0,,1464.0,"I can see two recern changes to PROD.
-Daniel, can you tell me if you think `CHG89357` might cause the issue?",n/a,0,,,,,,108,True
-428,1705587025813419000,Daniel,online-boutique,4.0,,1464.0,so i tested the frontend and placed a order,n/a,0,,,,,,43,False
-429,1705587031897229000,UptimeLabs,online-boutique,4.0,,1464.0,:alarm_clock: - You are 6 minutes in have you qualified the problem? You can type `/help` if you need any reminders.,n/a,0,,,,,,116,True
-430,1705587064159459000,Daniel,online-boutique,4.0,,1464.0,"it is possible, need more time to be sure",n/a,0,,,,,,41,False
-431,1705587073144149000,aydin.ghane,online-boutique,4.0,,1464.0,*Incident Number INC100094:* SEV3 adservice down,n/a,0,,,,,,48,False
-432,1705587073225838800,UptimeLabs,online-boutique,4.0,,1464.0,:star: Incident record created,n/a,0,,,,,,30,False
-433,1705587075305579000,UptimeLabs,online-boutique,4.0,,1464.0,:star: Send first comms in first 5 minutes,n/a,0,,,,,,42,False
-434,1705587104482439200,aydin.ghane@albelli.com,online-boutique,4.0,,1464.0,"We have reports that adservice is down.
-We couldn't reproduce the issue however.
-We're on it.",n/a,0,,,,,,93,False
-435,1705587143506628900,Shay,online-boutique,4.0,,1464.0,Is that change you put in to do with recommendation service?,n/a,0,,,,,,60,True
-436,1705587167728429000,UptimeLabs,online-boutique,4.0,,1464.0,":bulb: Asking questions to validate impact of the problem""",n/a,0,,,,,,58,False
-437,1705587202180349200,Shay,online-boutique,4.0,,1464.0,ad-service is down but it is non-customer impacting,n/a,0,,,,,,51,False
-438,1705587247868709000,Bob,online-boutique,4.0,,1464.0,getting more reports about customers not being able to access the platform,n/a,0,,,,,,74,False
-439,1705587272157059000,UptimeLabs,online-boutique,4.0,,1464.0,":alarm_clock: - Half your time is up, stay focused. You can type `/help` if you need any reminders.",n/a,0,,,,,,99,False
-440,1705587278849679000,Shay,online-boutique,4.0,,1464.0,Are we dealing with 2 issues?,n/a,0,,,,,,29,True
-441,1705587310059409000,aydin.ghane@albelli.com,online-boutique,4.0,,1464.0,"Seems like it,
-I'm still waiting for the answer how adservices could be related to placing an answer.",n/a,0,,,,,,101,False
-442,1705587352039089000,Daniel,online-boutique,4.0,,1464.0,just checked CHG89357:RecommendationService:version 1.8  change and its not causing any issues on the ad-service,n/a,0,,,,,,112,False
-443,1705587397349619000,aydin.ghane@albelli.com,online-boutique,4.0,,1464.0,"If adservice doesn't have an impact on customers, is it something we'd want to roll back? Tanya",n/a,0,,,,,,95,True
-444,1705587404472909000,Daniel,online-boutique,4.0,,1464.0,"ad-service is non customer impacting, so we are currently experiencing some other issue as well",n/a,0,,,,,,95,False
-445,1705587435719439000,aydin.ghane@albelli.com,online-boutique,4.0,,1464.0,Daniel Can you elaborate what's the other issue?,n/a,0,,,,,,48,True
-446,1705587450762549000,Tanya,online-boutique,4.0,,1464.0,"yeah we can roll the change back, but we also still need to figure out what this other issue is",n/a,0,,,,,,95,False
-447,1705587472491039000,aydin.ghane@albelli.com,online-boutique,4.0,,1464.0,Can anyone else reproduce the problem with accessing the platform?,n/a,0,,,,,,66,True
-448,1705587490075609000,Daniel,online-boutique,4.0,,1464.0,im not sure but bob mentioned customers not being able to access the website,n/a,0,,,,,,76,False
-449,1705587500121028900,aydin.ghane@albelli.com,online-boutique,4.0,,1464.0,We do have some dorp on user activity in the past 15 mins,n/a,0,,,,,,57,False
-450,1705587521745698800,Shay,online-boutique,4.0,,1464.0,no i cant reproduce the problem,n/a,0,,,,,,31,False
-451,1705587535237169200,Daniel,online-boutique,4.0,,1464.0,yeah the platform works just fine for me,n/a,0,,,,,,40,False
-452,1705587571161799000,UptimeLabs,online-boutique,4.0,,1464.0,:bulb: Hint: Check the organisation chart to see who the right person to ask is. Use `/help and press org chart.,n/a,0,,,,,,112,False
-453,1705587588809939000,Bob,online-boutique,4.0,,1464.0,ok my reports all seem to be coming from europe direction ,n/a,0,,,,,,58,False
-454,1705587632518299100,UptimeLabs,online-boutique,4.0,,1464.0,:alarm_clock: - You have less than 4 minutes. You can type `/help` if you need any reminders.,n/a,0,,,,,,93,False
-455,1705587643224799000,Daniel,online-boutique,4.0,,1464.0,anywhere specific @Bob?,n/a,0,,,,,,23,True
-456,1705587686306279000,Bob,online-boutique,4.0,,1464.0,Ive pinpointed that all of the complaints seem to be from Frankfurt Germany,n/a,0,,,,,,75,False
-457,1705587746862819000,UptimeLabs,online-boutique,4.0,,1464.0,:bulb: Hint: Fully understand scope of the problem,n/a,0,,,,,,50,False
-458,1705587752685119000,UptimeLabs,online-boutique,4.0,,1464.0,":alarm_clock: - You have less than 2 minutes remaining, remember communication is key. You can type `/help` if you need any reminders.",n/a,0,,,,,,134,False
-459,1705587809226469000,Daniel,online-boutique,4.0,,1464.0,unless its a 3rd party issue,n/a,0,,,,,,28,False
-460,1705587825737449000,Daniel,online-boutique,4.0,,1464.0,what do you think @aydin?,n/a,0,,,,,,25,True
-461,1705587868925828900,aydin.ghane@albelli.com,online-boutique,4.0,,1464.0,I think I wait for the trainers to explain to me what would the irght questions to ask in situation like this :wink:,n/a,0,,,,,,116,False
-462,1705587882903809000,UptimeLabs,online-boutique,4.0,,1464.0,Start retro and feedback,n/a,0,,,,,,24,False
-463,1705915951875268900,Tinus,online-boutique,1.0,,1466.0,"Hi @Ruchi Sharma, great to have you aboard at online boutique!",n/a,0,,,,,,62,False
-464,1705915957337999000,Tinus,online-boutique,1.0,,1466.0,Alias name gif,n/a,0,,,,,,14,False
-465,1705915970645039000,UptimeLabs,online-boutique,1.0,,1466.0,Start lvl 1,n/a,0,,,,,,11,False
-466,1705916055553504000,ruchi.sharma@ig.com,online-boutique,1.0,,1466.0,Clicked Start button,n/a,0,,,,,,20,False
-467,1705916056084209000,Tinus,online-boutique,1.0,,1466.0,We're really excited you've joined and I'd like to introduce you to the team.,n/a,0,,,,,,77,False
-468,1705916061042549000,Tinus,online-boutique,1.0,,1466.0,@Shay kick us off will you mate?,n/a,0,,,,,,32,True
-469,1705916066066219000,Shay,online-boutique,1.0,,1466.0,"Sure @Tinus, hey @Ruchi Sharma great to see you, I've not been here long but I'm sure we'll be working closely together. Who's next?",n/a,0,,,,,,132,True
-470,1705916076054569000,Bob,online-boutique,1.0,,1466.0,"Hi @Ruchi Sharma if we do get any issues reported by our customers, you'll probably hear from me first. Hopefully I won't be talking to you much, touch wood LOL",n/a,0,,,,,,160,False
-471,1705916086076169000,Daniel,online-boutique,1.0,,1466.0," Hey @Ruchi Sharma unfortunately I hear rather too much from Bob, we've got some teething issues here but I'm hopeful with you onboard we'll improve our stability.",n/a,0,,,,,,163,False
-472,1705916094949459200,ruchi.sharma@ig.com,online-boutique,1.0,,1466.0,Hi Everyone,n/a,0,,,,,,11,False
-473,1705916096161429000,Tinus,online-boutique,1.0,,1466.0,Oh and that just leaves Bez. @Bez have you got some time to say hi to @Ruchi Sharma?,n/a,0,,,,,,84,True
-474,1705916101100799000,Bez,online-boutique,1.0,,1466.0,"Of course, hey there @Ruchi Sharma - Tinus has been bigging you up so it's great to meet you. Have the team sung the boutique song yet. Tinus plays guitar and Shay sings harmony lol?",n/a,0,,,,,,182,True
-475,1705916109063049000,Tinus,online-boutique,1.0,,1466.0,Good thanks everyone for the intros,n/a,0,,,,,,35,False
-476,1705916113102669000,UptimeLabs,online-boutique,1.0,,1466.0,tools,n/a,0,,,,,,5,False
-477,1705916126063245000,ruchi.sharma@ig.com,online-boutique,1.0,,1466.0,Clicked Tools button,n/a,0,,,,,,20,False
-478,1705916126713979000,Tinus,online-boutique,1.0,,1466.0,"So @Ruchi Sharma, we are going to spend a few minutes getting you familiar with the tools and monitoring utilities that we use here at Online Boutique to support our retail site.",n/a,0,,,,,,178,False
-479,1705916136617449000,Tinus,online-boutique,1.0,,1466.0,Have a look at these links - this is our retail site - <http://hipster.prod.uptimelabs.io/>,n/a,0,,,,,,91,False
-480,1705916140603069200,Tinus,online-boutique,1.0,,1466.0,Rushi what's your previous experience with incident management?,n/a,0,,,,,,63,True
-481,1705916142486249000,ruchi.sharma@ig.com,online-boutique,1.0,,1466.0,Tinus sure,n/a,0,,,,,,10,False
-482,1705916146701209000,Tinus,online-boutique,1.0,,1466.0,"Logs and monitoring metrics can be viewed in grafana - <https://grafana.prod.uptimelabs.io/explore?orgId&#x3D;1&amp;left&#x3D;%5B%22now-1h%22,%22now%22,%22Loki%22,%7B%22refId%22:%22A%22,%22expr%22:%22%7Bapp%3D%5C%22checkoutservice%5C%22%7D%7C%3D%20%5C%22error%5C%22%22%7D%5D>",n/a,0,,,,,,275,True
-483,1705916161619949000,Tinus,online-boutique,1.0,,1466.0,Pay close attention to the main site dashboard <https://grafana.prod.uptimelabs.io/d/pt36kbdnk1/online-boutique-monitoring?orgId&#x3D;1&amp;refresh&#x3D;10s>,n/a,0,,,,,,157,True
-484,1705916166675249200,Tinus,online-boutique,1.0,,1466.0,"and the incident management dashboard, where *change requests can be found in the bottom panel* <https://grafana.prod.uptimelabs.io/d/aOf5yan4z/incident-management?orgId&#x3D;1&amp;refresh&#x3D;10s>",n/a,0,,,,,,198,True
-485,1705916191668999000,Tinus,online-boutique,1.0,,1466.0,Activity logs can be filtered and viewed on the Explore page <https://grafana.prod.uptimelabs.io>,n/a,0,,,,,,97,False
-486,1705916206632519000,Tinus,online-boutique,1.0,,1466.0,You can monitor the kubernetes cluster from command line tools on the bastion - check out the `k9s` tool - or use the kubernetes dashboard <https://dashboard.prod.uptimelabs.io>,n/a,0,,,,,,177,False
-487,1705916207180888800,ruchi.sharma@ig.com,online-boutique,1.0,,1466.0,I have worked with Incident Managers closely as we get incidents based on the Priority level.,n/a,0,,,,,,93,False
-488,1705916216632419000,Tinus,online-boutique,1.0,,1466.0,"If any problems do arise (let's hope not!), type `/incident` to create an incident record",n/a,0,,,,,,89,False
-489,1705916220885078800,Tinus,online-boutique,1.0,,1466.0,awesome,n/a,0,,,,,,7,False
-490,1705916226632939000,Tinus,online-boutique,1.0,,1466.0,"This will be posted in the *business-comms* channel to inform colleagues outside of the team, so be sure to be informative when you use the command",n/a,0,,,,,,147,False
-491,1705916236631879200,Tinus,online-boutique,1.0,,1466.0,"Don't worry about trying to remember all of this, just type `/help` at anytime for a reminder of all of the links and commands shared today",n/a,0,,,,,,139,False
-492,1705916251632019000,UptimeLabs,online-boutique,1.0,,1466.0,complete,n/a,0,,,,,,8,False
-493,1705916298277809000,ruchi.sharma,online-boutique,1.0,,1466.0,*Incident Number INC100015:* We have got an incident where we see the users are facing some issue in FE.,n/a,0,,,,,,104,False
-494,1705916362623555000,ruchi.sharma@ig.com,online-boutique,1.0,,1466.0,Clicked Complete button,n/a,0,,,,,,23,False
-495,1705916363195689000,Tinus,online-boutique,1.0,,1466.0,Congratulations! I think we're done here for now. Well done!,n/a,0,,,,,,60,False
-496,1705916366139729000,Tinus,online-boutique,1.0,,1466.0,Now please go back the main game browser tab and click on 'Go to Level 2' button to start level 2,n/a,0,,,,,,97,False
-497,1705916625670018800,UptimeLabs,online-boutique,12.0,,1467.0,Start Drill,n/a,0,,,,,,11,False
-498,1705916687198895900,ruchi.sharma@ig.com,online-boutique,12.0,,1467.0,Clicked Start button,n/a,0,,,,,,20,False
-499,1705916687711579100,Bez,online-boutique,12.0,,1467.0,"So, business wise, we are on target for this months sales. Having said that we are too close to the target. We need every penny of every minute to stay on course.",n/a,0,,,,,,162,False
-500,1705916694703709000,Bez,online-boutique,12.0,,1467.0,Please make sure systems are healthy so we can hit target.,n/a,0,,,,,,58,False
-501,1705916698812259000,Tinus,online-boutique,12.0,,1467.0,"Welcome to the team @Ruchi Sharma. everone is here to help, how are you finding things so far?",n/a,0,,,,,,94,True
-502,1705916704718059000,Bob,online-boutique,12.0,,1467.0,"@Tinus we're starting to get some mixed reports of customers not able to access the site, can your team investigate?",n/a,0,,,,,,116,True
-503,1705916707811989000,Tinus,online-boutique,12.0,,1467.0,"Yes @Ruchi Sharma is incident manager today, Ruchi Sharma can you drive this?",n/a,0,,,,,,77,True
-504,1705916717858309000,Bez,online-boutique,12.0,,1467.0,"Hey folks, what is going on? I can see a big drop on payments hitting our accounts",n/a,0,,,,,,82,True
-505,1705916719800619000,Tinus,online-boutique,12.0,,1467.0,it could be a load issue,n/a,0,,,,,,24,False
-506,1705916721806229000,Daniel,online-boutique,12.0,,1467.0,There were a few deployments this morning,n/a,0,,,,,,41,False
-507,1705916722356369000,ruchi.sharma@ig.com,online-boutique,12.0,,1467.0,"Hi Tinus, things are good",n/a,0,,,,,,25,False
-508,1705916725802209000,Daniel,online-boutique,12.0,,1467.0,I'm at your service,n/a,0,,,,,,19,False
-509,1705916727762959000,Tanya,online-boutique,12.0,,1467.0,I'm online too,n/a,0,,,,,,14,False
-510,1705916728703449000,ruchi.sharma@ig.com,online-boutique,12.0,,1467.0,Thanks for asking :slightly_smiling_face:,n/a,0,,,,,,41,False
-511,1705916737717159000,Bob,online-boutique,12.0,,1467.0,What do I need to tell the angry customers?,n/a,0,,,,,,43,True
-512,1705916739965979100,Tinus,online-boutique,12.0,,1467.0,"Reports are surfacing about numerous complaints, it's critical to double check and verify an urgent issue in production.",n/a,0,,,,,,120,False
-513,1705916888186629000,UptimeLabs,online-boutique,12.0,,1467.0,:bulb: Hint: Fully understand scope of the problem,n/a,0,,,,,,50,False
-514,1705916897581729000,ruchi.sharma@ig.com,online-boutique,12.0,,1467.0,I am seeing the 503 error when I am trying to access the website,n/a,0,,,,,,64,False
-515,1705916916805069000,UptimeLabs,online-boutique,12.0,,1467.0,:star: Qualify the problem,n/a,0,,,,,,26,False
-516,1705916922824139000,UptimeLabs,online-boutique,12.0,,1467.0,:star: Reproduces the incident,n/a,0,,,,,,30,False
-517,1705917010132039200,Bob,online-boutique,12.0,,1467.0,The issue has been confirmed. We're getting multiple complaints about 503 errors on the website. Time to rally the team and tackle this head-on. Let's stay focused.,n/a,0,,,,,,164,False
-518,1705917041413599000,ruchi.sharma@ig.com,online-boutique,12.0,,1467.0,Tanya Can we please check if this change CHG89350 has caused the issue ?,n/a,0,,,,,,72,True
-519,1705917047379949000,Tanya,online-boutique,12.0,,1467.0,I'll check the status of the payment service and get back to you.,n/a,0,,,,,,65,False
-520,1705917053803069200,ruchi.sharma@ig.com,online-boutique,12.0,,1467.0,I am suspecting this could be the reason,n/a,0,,,,,,40,False
-521,1705917070055349000,Tanya,online-boutique,12.0,,1467.0,Status checked. Payment service operational. No issues from recent changes observed.,n/a,0,,,,,,84,False
-522,1705917172131598800,ruchi.sharma@ig.com,online-boutique,12.0,,1467.0,Hi Daniel Can we please check if this change could have caused this issue CHG89348?,n/a,0,,,,,,83,True
-523,1705917183144459000,Daniel,online-boutique,12.0,,1467.0,Issues detected in the frontend service. I'll report back shortly with a full status update.,n/a,0,,,,,,92,False
-524,1705917217390599000,ruchi.sharma@ig.com,online-boutique,12.0,,1467.0,Sure,n/a,0,,,,,,4,False
-525,1705917344611489000,ruchi.sharma,online-boutique,12.0,,1467.0,*Incident Number INC10009:* We have found that users are facing issue while trying in accessing the Website. We are seeing 503 errors,n/a,0,,,,,,133,False
-526,1705917354053299000,Daniel,online-boutique,12.0,,1467.0,just checked frontend is down,n/a,0,,,,,,29,False
-527,1705917374209549000,ruchi.sharma@ig.com,online-boutique,12.0,,1467.0,Okay so could you please revert the change and can we check if the issue still persist?,n/a,0,,,,,,87,True
-528,1705917384914019000,Daniel,online-boutique,12.0,,1467.0,I'll look into the frontend issue and start rollback immediately.,n/a,0,,,,,,65,False
-529,1705917390041879000,UptimeLabs,online-boutique,12.0,,1467.0,:star: Incident record is created,n/a,0,,,,,,33,False
-530,1705917402003299000,ruchi.sharma@ig.com,online-boutique,12.0,,1467.0,For now Daniel has confirmed that the issue is from FE end,n/a,0,,,,,,58,False
-531,1705917449341959000,Daniel,online-boutique,12.0,,1467.0,Rollback of the frontend service change CHG89348 is complete. Please monitor the situation and let me know if issues persist.,n/a,0,,,,,,125,False
-532,1705917482198879000,ruchi.sharma@ig.com,online-boutique,12.0,,1467.0,Sure Daniel,n/a,0,,,,,,11,False
-533,1705917494966909000,ruchi.sharma@ig.com,online-boutique,12.0,,1467.0,Yeah it is working fine now,n/a,0,,,,,,27,False
-534,1705917504767959000,ruchi.sharma@ig.com,online-boutique,12.0,,1467.0,Thanks Daniel for reverting the change,n/a,0,,,,,,38,False
-535,1705917508914769000,Daniel,online-boutique,12.0,,1467.0,Customers are now able to access the site and complaints are going down.,n/a,0,,,,,,72,False
-536,1705917518076959000,Tinus,online-boutique,12.0,,1467.0,Good job on identifying the right cause.,n/a,0,,,,,,40,False
-537,1705917523696548900,UptimeLabs,online-boutique,12.0,,1467.0,Start drill retro and feedback,n/a,0,,,,,,30,False
-538,1705917524183569000,Daniel,online-boutique,12.0,,1467.0,Thanks so much for helping to resolve this! Make sure to communicate the resolution in business channel.,n/a,0,,,,,,104,False
-539,1705917553978419000,UptimeLabs,online-boutique,12.0,,1467.0,:star: Send regular business comms,n/a,0,,,,,,34,False
-540,1705917570066239200,UptimeLabs,online-boutique,12.0,,1467.0,:star: Restoration over root cause analysis,n/a,0,,,,,,43,False
-541,1705917608544889000,ruchi.sharma@ig.com,online-boutique,12.0,,1467.0,"The Issue was first observed at 3:13.
-Daniel has reverted the change CHG89348 at around  3:26 when he confirmed that the issue was in FE and we are not seeing this issue now",n/a,0,,,,,,173,False
-542,1705917616568269000,Daniel,online-boutique,12.0,,1467.0,Understood. Keep monitoring and report any further anomalies.,n/a,0,,,,,,61,False
-543,1705917624298639000,ruchi.sharma@ig.com,online-boutique,12.0,,1467.0,Thank You Everyone for your help:slightly_smiling_face:,n/a,0,,,,,,55,False
-544,1705917640556003000,ruchi.sharma@ig.com,online-boutique,12.0,,1467.0,Clicked Start_feedback button,n/a,0,,,,,,29,False
-545,1705917774240149000,UptimeLabs,online-boutique,12.0,,1467.0,Submission successful,n/a,0,,,,,,21,False
-546,1705919105818849000,Tinus,online-boutique,1.0,,1469.0,"Hi @Anuja Gupta, great to have you aboard at online boutique!",n/a,0,,,,,,61,False
-547,1705919111287519000,Tinus,online-boutique,1.0,,1469.0,Alias name gif,n/a,0,,,,,,14,False
-548,1705919124617188900,UptimeLabs,online-boutique,1.0,,1469.0,Start lvl 1,n/a,0,,,,,,11,False
-549,1705919277651424800,anuja.gupta@ig.com,online-boutique,1.0,,1469.0,Clicked Start button,n/a,0,,,,,,20,False
-550,1705919278163809000,Tinus,online-boutique,1.0,,1469.0,We're really excited you've joined and I'd like to introduce you to the team.,n/a,0,,,,,,77,False
-551,1705919283148289000,Tinus,online-boutique,1.0,,1469.0,@Shay kick us off will you mate?,n/a,0,,,,,,32,True
-552,1705919288210969000,Shay,online-boutique,1.0,,1469.0,"Sure @Tinus, hey @Anuja Gupta great to see you, I've not been here long but I'm sure we'll be working closely together. Who's next?",n/a,0,,,,,,131,True
-553,1705919290386129000,anuja.gupta@ig.com,online-boutique,1.0,,1469.0,":wave: Hello, team! Thanks for welcoming :slightly_smiling_face:",n/a,0,,,,,,64,False
-554,1705919298153999000,Bob,online-boutique,1.0,,1469.0,"Hi @Anuja Gupta if we do get any issues reported by our customers, you'll probably hear from me first. Hopefully I won't be talking to you much, touch wood LOL",n/a,0,,,,,,159,False
-555,1705919308142689000,Daniel,online-boutique,1.0,,1469.0," Hey @Anuja Gupta unfortunately I hear rather too much from Bob, we've got some teething issues here but I'm hopeful with you onboard we'll improve our stability.",n/a,0,,,,,,162,False
-556,1705919318146409000,Tinus,online-boutique,1.0,,1469.0,Oh and that just leaves Bez. @Bez have you got some time to say hi to @Anuja Gupta?,n/a,0,,,,,,83,True
-557,1705919323187659000,Bez,online-boutique,1.0,,1469.0,"Of course, hey there @Anuja Gupta - Tinus has been bigging you up so it's great to meet you. Have the team sung the boutique song yet. Tinus plays guitar and Shay sings harmony lol?",n/a,0,,,,,,181,True
-558,1705919331149688800,Tinus,online-boutique,1.0,,1469.0,Good thanks everyone for the intros,n/a,0,,,,,,35,False
-559,1705919335180119000,UptimeLabs,online-boutique,1.0,,1469.0,tools,n/a,0,,,,,,5,False
-560,1705919395150145000,anuja.gupta@ig.com,online-boutique,1.0,,1469.0,Clicked Tools button,n/a,0,,,,,,20,False
-561,1705919395655089000,Tinus,online-boutique,1.0,,1469.0,"So @Anuja Gupta, we are going to spend a few minutes getting you familiar with the tools and monitoring utilities that we use here at Online Boutique to support our retail site.",n/a,0,,,,,,177,False
-562,1705919405591789000,Tinus,online-boutique,1.0,,1469.0,Have a look at these links - this is our retail site - <http://hipster.prod.uptimelabs.io/>,n/a,0,,,,,,91,False
-563,1705919415600569000,Tinus,online-boutique,1.0,,1469.0,"Logs and monitoring metrics can be viewed in grafana - <https://grafana.prod.uptimelabs.io/explore?orgId&#x3D;1&amp;left&#x3D;%5B%22now-1h%22,%22now%22,%22Loki%22,%7B%22refId%22:%22A%22,%22expr%22:%22%7Bapp%3D%5C%22checkoutservice%5C%22%7D%7C%3D%20%5C%22error%5C%22%22%7D%5D>",n/a,0,,,,,,275,True
-564,1705919423285899000,anuja.gupta@ig.com,online-boutique,1.0,,1469.0,Yes Tinus,n/a,0,,,,,,9,False
-565,1705919430602259000,Tinus,online-boutique,1.0,,1469.0,Pay close attention to the main site dashboard <https://grafana.prod.uptimelabs.io/d/pt36kbdnk1/online-boutique-monitoring?orgId&#x3D;1&amp;refresh&#x3D;10s>,n/a,0,,,,,,157,True
-566,1705919435642349000,Tinus,online-boutique,1.0,,1469.0,"and the incident management dashboard, where *change requests can be found in the bottom panel* <https://grafana.prod.uptimelabs.io/d/aOf5yan4z/incident-management?orgId&#x3D;1&amp;refresh&#x3D;10s>",n/a,0,,,,,,198,True
-567,1705919460609649000,Tinus,online-boutique,1.0,,1469.0,Activity logs can be filtered and viewed on the Explore page <https://grafana.prod.uptimelabs.io>,n/a,0,,,,,,97,False
-568,1705919475603959000,Tinus,online-boutique,1.0,,1469.0,You can monitor the kubernetes cluster from command line tools on the bastion - check out the `k9s` tool - or use the kubernetes dashboard <https://dashboard.prod.uptimelabs.io>,n/a,0,,,,,,177,False
-569,1705919485610008800,Tinus,online-boutique,1.0,,1469.0,"If any problems do arise (let's hope not!), type `/incident` to create an incident record",n/a,0,,,,,,89,False
-570,1705919495608209000,Tinus,online-boutique,1.0,,1469.0,"This will be posted in the *business-comms* channel to inform colleagues outside of the team, so be sure to be informative when you use the command",n/a,0,,,,,,147,False
-571,1705919505612869000,Tinus,online-boutique,1.0,,1469.0,"Don't worry about trying to remember all of this, just type `/help` at anytime for a reminder of all of the links and commands shared today",n/a,0,,,,,,139,False
-572,1705919520607869000,UptimeLabs,online-boutique,1.0,,1469.0,complete,n/a,0,,,,,,8,False
-573,1705920376821688800,UptimeLabs,online-boutique,12.0,,1470.0,Start Drill,n/a,0,,,,,,11,False
-574,1705920881916249000,anuja.gupta,online-boutique,12.0,,1470.0,*Incident Number INC100034:* sev2 Description - Testing,n/a,0,,,,,,55,False
-575,1705920924752458000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,Clicked Start button,n/a,0,,,,,,20,False
-576,1705920925477149000,Bez,online-boutique,12.0,,1470.0,"So, business wise, we are on target for this months sales. Having said that we are too close to the target. We need every penny of every minute to stay on course.",n/a,0,,,,,,162,False
-577,1705920932352078800,Bez,online-boutique,12.0,,1470.0,Please make sure systems are healthy so we can hit target.,n/a,0,,,,,,58,False
-578,1705920936442259200,Tinus,online-boutique,12.0,,1470.0,"Welcome to the team @Anuja Gupta. everone is here to help, how are you finding things so far?",n/a,0,,,,,,93,True
-579,1705920942365919200,Bob,online-boutique,12.0,,1470.0,"@Tinus we're starting to get some mixed reports of customers not able to access the site, can your team investigate?",n/a,0,,,,,,116,True
-580,1705920945397639000,Tinus,online-boutique,12.0,,1470.0,"Yes @Anuja Gupta is incident manager today, Anuja Gupta can you drive this?",n/a,0,,,,,,75,True
-581,1705920955365039000,Bez,online-boutique,12.0,,1470.0,"Hey folks, what is going on? I can see a big drop on payments hitting our accounts",n/a,0,,,,,,82,True
-582,1705920957454308900,Tinus,online-boutique,12.0,,1470.0,it could be a load issue,n/a,0,,,,,,24,False
-583,1705920959454179000,Daniel,online-boutique,12.0,,1470.0,There were a few deployments this morning,n/a,0,,,,,,41,False
-584,1705920963377999000,Daniel,online-boutique,12.0,,1470.0,I'm at your service,n/a,0,,,,,,19,False
-585,1705920965449339000,Tanya,online-boutique,12.0,,1470.0,I'm online too,n/a,0,,,,,,14,False
-586,1705920975389299000,Bob,online-boutique,12.0,,1470.0,What do I need to tell the angry customers?,n/a,0,,,,,,43,True
-587,1705921095051759000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,"Hi Team, I tried accessing our online page and we are observing 503 Service is temporarily Unavailable",n/a,0,,,,,,102,False
-588,1705921128064559000,Shay,online-boutique,12.0,,1470.0,im also getting the same issue,n/a,0,,,,,,30,False
-589,1705921142779409000,Daniel,online-boutique,12.0,,1470.0,i tried to access the platform and got the same problem,n/a,0,,,,,,55,False
-590,1705921143034559000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,we need to do a first level check about the Internet and load blancing issue,n/a,0,,,,,,76,False
-591,1705921154424369200,Shay,online-boutique,12.0,,1470.0,what would you like me to do?,n/a,0,,,,,,29,True
-592,1705921162982609200,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,can we please check it in the logs? if there is any errors observed?,n/a,0,,,,,,68,True
-593,1705921197569809000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,Shay can you take care of this ?,n/a,0,,,,,,32,True
-594,1705921199984599000,UptimeLabs,online-boutique,12.0,,1470.0,:star: Reproduces the incident,n/a,0,,,,,,30,False
-595,1705921208064289000,Daniel,online-boutique,12.0,,1470.0,"Yes, I'll check the service and report back to you.",n/a,0,,,,,,51,False
-596,1705921230377469200,UptimeLabs,online-boutique,12.0,,1470.0,:bulb: Hint: Declare an incident.,n/a,0,,,,,,33,False
-597,1705921232606719000,Daniel,online-boutique,12.0,,1470.0,im getting issues detected in the frontend service.,n/a,0,,,,,,51,False
-598,1705921251135369000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,and Daniel could you check if there were any changes deployed recently ?,n/a,0,,,,,,72,True
-599,1705921310731468800,UptimeLabs,online-boutique,12.0,,1470.0,:star: Asking questions to validate impact of the problem,n/a,0,,,,,,57,False
-600,1705921338063099000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,Bob could you please let us know how many customers have reported this issue ?,n/a,0,,,,,,78,True
-601,1705921351339118800,UptimeLabs,online-boutique,12.0,,1470.0,:star: Asking questions to validate impact of the problem,n/a,0,,,,,,57,False
-602,1705921356940578800,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,what is the scale /impact of the problem ?,n/a,0,,,,,,42,True
-603,1705921381244819000,Daniel,online-boutique,12.0,,1470.0,there was recently changes deployed in the frontend service,n/a,0,,,,,,59,False
-604,1705921419294719000,Bob,online-boutique,12.0,,1470.0,We're seeing a significant number of reports coming in about the service unavailability. It's a widespread issue.,n/a,0,,,,,,113,False
-605,1705921427596719000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,change Id ?,n/a,0,,,,,,11,True
-606,1705921466885499000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,can we please reach out to the change owner to revert / rollback this changes immediately?,n/a,0,,,,,,90,True
-607,1705921489422049000,UptimeLabs,online-boutique,12.0,,1470.0,:star: Restoration over root cause analysis,n/a,0,,,,,,43,False
-608,1705921540739649000,anuja.gupta,online-boutique,12.0,,1470.0,*Incident Number INC100069:* sev1 - Online Portal is not accessible - 503 Service Temp Unavailable,n/a,0,,,,,,98,False
-609,1705921544318739000,Daniel,online-boutique,12.0,,1470.0,yeah i will check what exactly the changes are and see if it possible to perform the rollback,n/a,0,,,,,,93,False
-610,1705921558354849000,UptimeLabs,online-boutique,12.0,,1470.0,:star: Incident record is created,n/a,0,,,,,,33,False
-611,1705921570865988900,UptimeLabs,online-boutique,12.0,,1470.0,:star: Formally assign criticality level to the incident,n/a,0,,,,,,56,False
-612,1705921630152079000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,CHG89348 is this the one ? please validate it once,n/a,0,,,,,,50,True
-613,1705921649065019000,UptimeLabs,online-boutique,12.0,,1470.0,:star: Check changes done to the platform,n/a,0,,,,,,41,False
-614,1705921741909889000,Daniel,online-boutique,12.0,,1470.0,I'll look into the change and start rollback immediately.,n/a,0,,,,,,57,False
-615,1705921754246099000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,Hi Daniel what's the update?,n/a,0,,,,,,28,True
-616,1705921773385799000,Daniel,online-boutique,12.0,,1470.0,Rollback of CHG89348 to the frontend service is complete.,n/a,0,,,,,,57,False
-617,1705921776057508900,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,are creating any emergency changes for rolling back this particular change ?,n/a,0,,,,,,76,True
-618,1705921796794509000,UptimeLabs,online-boutique,12.0,,1470.0,:bulb: Hint: Validate the fix,n/a,0,,,,,,29,False
-619,1705921822149239000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,I am able to access the online portal,n/a,0,,,,,,37,False
-620,1705921836943689200,UptimeLabs,online-boutique,12.0,,1470.0,:star: Validate the fix,n/a,0,,,,,,23,False
-621,1705921838403219000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,Bob can you please cross verify with the customers,n/a,0,,,,,,50,False
-622,1705921851378299000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,looks like the issue has been fixed,n/a,0,,,,,,35,False
-623,1705921856938169000,UptimeLabs,online-boutique,12.0,,1470.0,:star: Cross checking resolution with team,n/a,0,,,,,,42,False
-624,1705921858791379000,Bob,online-boutique,12.0,,1470.0,The site is back up and customer complaints are going down.,n/a,0,,,,,,59,False
-625,1705921869931788800,UptimeLabs,online-boutique,12.0,,1470.0,:bulb: Hint: keep the business informed regularly,n/a,0,,,,,,49,False
-626,1705921873985469200,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,Great !:+1:,n/a,0,,,,,,11,False
-627,1705921878419239200,UptimeLabs,online-boutique,12.0,,1470.0,Start drill retro and feedback,n/a,0,,,,,,30,False
-628,1705921881892719000,Shay,online-boutique,12.0,,1470.0,the frontend is working for me,n/a,0,,,,,,30,False
-629,1705921888597819100,Daniel,online-boutique,12.0,,1470.0,"Systems are running smoothly, orders are coming through :thumbsup:",n/a,0,,,,,,66,False
-630,1705921902828519200,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,Issue was observed in the frontend due to a change being deployed,n/a,0,,,,,,65,False
-631,1705921922543359000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,we have rolled back the change as an immediate step to mitigate the issue,n/a,0,,,,,,73,False
-632,1705921941326859000,UptimeLabs,online-boutique,12.0,,1470.0,:star: Send regular business comms,n/a,0,,,,,,34,False
-633,1705921943787789000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,now the online Portal is accessible,n/a,0,,,,,,35,False
-634,1705921947920679200,UptimeLabs,online-boutique,12.0,,1470.0,:star: Confirm resolution with the business,n/a,0,,,,,,43,False
-635,1705921962534859000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,and customers issues are reducing now.,n/a,0,,,,,,38,False
-636,1705922004310049000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,So we have mitigated the issue .. great work team:+1:,n/a,0,,,,,,53,False
-637,1705922022942109200,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,can we please reach out to the team whose changes were deployed,n/a,0,,,,,,63,False
-638,1705922027769188900,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,for further RCA,n/a,0,,,,,,15,False
-639,1705922030035649000,Daniel,online-boutique,12.0,,1470.0,good job everyone,n/a,0,,,,,,17,False
-640,1705922056200509200,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,so that the fix the issue and then test the changes properly in lower env,n/a,0,,,,,,73,False
-641,1705922063475619000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,and then push it to PRod,n/a,0,,,,,,24,False
-642,1705922081223209000,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,may be a small review on this issue is required,n/a,0,,,,,,47,False
-643,1705922165287270100,anuja.gupta@ig.com,online-boutique,12.0,,1470.0,Clicked Start_feedback button,n/a,0,,,,,,29,False
-644,1705993810885068800,Bez,online-boutique,15.0,,1471.0,Hey everyone. I'm pumped today about our flash sale,n/a,0,,,,,,51,False
-645,1705993816766169000,Bez,online-boutique,15.0,,1471.0,You know it's been 53 years since the Beatles released Abbey Road right? My favourite album,n/a,0,,,,,,91,True
-646,1705993821693718800,Tanya,online-boutique,15.0,,1471.0,53 years already?? Wow that makes me feel old...,n/a,0,,,,,,48,True
-647,1705993826657529000,Bez,online-boutique,15.0,,1471.0,Indeed! We're celebrating today by promoting a flash sale on retro items from 1969,n/a,0,,,,,,82,False
-648,1705993832695239200,Bez,online-boutique,15.0,,1471.0,I re-watched Paul McCartney's Glastonbury set last night to get in the mood!,n/a,0,,,,,,76,False
-649,1705993833745499000,UptimeLabs,online-boutique,15.0,,1471.0,Start lvl 15,n/a,0,,,,,,12,False
-650,1705993862288272000,gamunu@uptimelabs.io,online-boutique,15.0,,1471.0,Clicked Start button,n/a,0,,,,,,20,False
-651,1705993862843479000,UptimeLabs,online-boutique,15.0,,1471.0,":alarm_clock: - You have 20 minutes to resolve the outage, good luck! You can type `/help` if you need any reminders.",n/a,0,,,,,,117,False
-652,1705993862891489000,Tinus,online-boutique,15.0,,1471.0,That sounds great Bez. Huge Beatles fan myself here,n/a,0,,,,,,51,False
-653,1705993867833949200,Tinus,online-boutique,15.0,,1471.0,We've just deployed a couple of changes into prod earlier but we should be all good,n/a,0,,,,,,83,False
-654,1705993872877979100,Tinus,online-boutique,15.0,,1471.0,We're a step closer to allowing folks to pay for items from the 1960s with Bitcoin thanks to Daniel!,n/a,0,,,,,,100,False
-655,1705993875853139000,Daniel,online-boutique,15.0,,1471.0,Think of it like time travelling!,n/a,0,,,,,,33,False
-656,1705993879905649000,Bez,online-boutique,15.0,,1471.0,Wow good work Daniel! Looking forward to seeing it in action in prod,n/a,0,,,,,,68,False
-657,1705993883854979000,Tinus,online-boutique,15.0,,1471.0,How's the test-driven development going?,n/a,0,,,,,,40,True
-658,1705993888823509000,Daniel,online-boutique,15.0,,1471.0,TDDs going well. We are as solid as a rock! Though don't ask me what the Liskov Substitution Principle is...,n/a,0,,,,,,108,False
-659,1705993895830988800,Bob,online-boutique,15.0,,1471.0,"erm - funny you should say that Daniel, it's not looking good today, something is up",n/a,0,,,,,,84,False
-660,1705993898910029000,Tanya,online-boutique,15.0,,1471.0,Sorry Daniel it's not looking good on my end either,n/a,0,,,,,,51,False
-661,1705993902876529000,Tinus,online-boutique,15.0,,1471.0,Uh oh...here we go again,n/a,0,,,,,,24,False
-662,1705993903916439000,Tinus,online-boutique,15.0,,1471.0,"@Gamunu Balagalla can you ""Size up the Issue"" please and keep us informed",n/a,0,,,,,,73,False
-663,1705993917834429000,Bob,online-boutique,15.0,,1471.0,From what I can see it looks like we are still getting orders through,n/a,0,,,,,,69,False
-664,1705993954838849000,Bez,online-boutique,15.0,,1471.0,Get this sorted ASAP!!!,n/a,0,,,,,,23,False
-665,1705993962898468900,Daniel,online-boutique,15.0,,1471.0,@Bob it could be UK only issue? I can also see orders coming through,n/a,0,,,,,,68,True
-666,1705994132381339100,Shay,online-boutique,15.0,,1471.0,I'm on support with @player today. We are getting a lot of alerts. Are all the services healthy?,n/a,0,,,,,,96,True
-667,1705994139049228800,Shay,online-boutique,15.0,,1471.0,"I've seen these two alerts:
+0,1705993810885068800,Bez,online-boutique,15,,1471,Hey everyone. I'm pumped today about our flash sale,n/a,0,,,,,,51,False
+1,1705993816766169000,Bez,online-boutique,15,,1471,You know it's been 53 years since the Beatles released Abbey Road right? My favourite album,n/a,0,,,,,,91,True
+2,1705993821693718800,Tanya,online-boutique,15,,1471,53 years already?? Wow that makes me feel old...,n/a,0,,,,,,48,True
+3,1705993826657529000,Bez,online-boutique,15,,1471,Indeed! We're celebrating today by promoting a flash sale on retro items from 1969,n/a,0,,,,,,82,False
+4,1705993832695239200,Bez,online-boutique,15,,1471,I re-watched Paul McCartney's Glastonbury set last night to get in the mood!,n/a,0,,,,,,76,False
+5,1705993833745499000,UptimeLabs,online-boutique,15,,1471,Start lvl 15,n/a,0,,,,,,12,False
+6,1705993862288272000,gamunu@uptimelabs.io,online-boutique,15,,1471,Clicked Start button,n/a,0,,,,,,20,False
+7,1705993862843479000,UptimeLabs,online-boutique,15,,1471,":alarm_clock: - You have 20 minutes to resolve the outage, good luck! You can type `/help` if you need any reminders.",n/a,0,,,,,,117,False
+8,1705993862891489000,Tinus,online-boutique,15,,1471,That sounds great Bez. Huge Beatles fan myself here,n/a,0,,,,,,51,False
+9,1705993867833949200,Tinus,online-boutique,15,,1471,We've just deployed a couple of changes into prod earlier but we should be all good,n/a,0,,,,,,83,False
+10,1705993872877979100,Tinus,online-boutique,15,,1471,We're a step closer to allowing folks to pay for items from the 1960s with Bitcoin thanks to Daniel!,n/a,0,,,,,,100,False
+11,1705993875853139000,Daniel,online-boutique,15,,1471,Think of it like time travelling!,n/a,0,,,,,,33,False
+12,1705993879905649000,Bez,online-boutique,15,,1471,Wow good work Daniel! Looking forward to seeing it in action in prod,n/a,0,,,,,,68,False
+13,1705993883854979000,Tinus,online-boutique,15,,1471,How's the test-driven development going?,n/a,0,,,,,,40,True
+14,1705993888823509000,Daniel,online-boutique,15,,1471,TDDs going well. We are as solid as a rock! Though don't ask me what the Liskov Substitution Principle is...,n/a,0,,,,,,108,False
+15,1705993895830988800,Bob,online-boutique,15,,1471,"erm - funny you should say that Daniel, it's not looking good today, something is up",n/a,0,,,,,,84,False
+16,1705993898910029000,Tanya,online-boutique,15,,1471,Sorry Daniel it's not looking good on my end either,n/a,0,,,,,,51,False
+17,1705993902876529000,Tinus,online-boutique,15,,1471,Uh oh...here we go again,n/a,0,,,,,,24,False
+18,1705993903916439000,Tinus,online-boutique,15,,1471,"@Gamunu Balagalla can you ""Size up the Issue"" please and keep us informed",n/a,0,,,,,,73,False
+19,1705993917834429000,Bob,online-boutique,15,,1471,From what I can see it looks like we are still getting orders through,n/a,0,,,,,,69,False
+20,1705993954838849000,Bez,online-boutique,15,,1471,Get this sorted ASAP!!!,n/a,0,,,,,,23,False
+21,1705993962898468900,Daniel,online-boutique,15,,1471,@Bob it could be UK only issue? I can also see orders coming through,n/a,0,,,,,,68,True
+22,1705994132381339100,Shay,online-boutique,15,,1471,I'm on support with @player today. We are getting a lot of alerts. Are all the services healthy?,n/a,0,,,,,,96,True
+23,1705994139049228800,Shay,online-boutique,15,,1471,"I've seen these two alerts:
 
 ```
 Alert: SEV-4 - ProductCatalogue: High Warning Rate in Log Messages [warning]
@@ -687,49 +31,49 @@ Alert: SEV-4 - ProductCatalogue: High Warning Rate in Log Messages [warning]
 ```
 Alert: SEV-1 - Error in processing payments [critical]
 ```",n/a,0,,,,,,177,False
-668,1705994157450259000,Daniel,online-boutique,15.0,,1471.0,"I am not sure what is going on, to be honest. I can place orders without any issues.",n/a,0,,,,,,84,False
-669,1705994188034318800,Bob,online-boutique,15.0,,1471.0,We've been advertising products on Instagram in the past hour so we will see a spike in traffic in today.,n/a,0,,,,,,105,False
-670,1705994223172439000,UptimeLabs,online-boutique,15.0,,1471.0,:alarm_clock: - You are 6 minutes in have you qualified the problem? You can type `/help` if you need any reminders.,n/a,0,,,,,,116,True
-671,1705994253209198800,Bob,online-boutique,15.0,,1471.0,There are few reports from users they can't purchase some of our advertised products,n/a,0,,,,,,84,False
-672,1705994429834579000,Bob,online-boutique,15.0,,1471.0,The customers are saying they can place the orders now,n/a,0,,,,,,54,False
-673,1705994433885319000,Tanya,online-boutique,15.0,,1471.0,Well done everyone!,n/a,0,,,,,,19,False
-674,1705994435922139000,Tinus,online-boutique,15.0,,1471.0,Are we sure it's fixed?,n/a,0,,,,,,23,True
-675,1705994439933839000,Daniel,online-boutique,15.0,,1471.0,Looks like it to me,n/a,0,,,,,,19,False
-676,1705994441953059000,Tinus,online-boutique,15.0,,1471.0,@Gamunu Balagalla what do you think?,n/a,0,,,,,,36,True
-677,1705994463442559000,UptimeLabs,online-boutique,15.0,,1471.0,":alarm_clock: - Half your time is up, stay focused. You can type `/help` if you need any reminders.",n/a,0,,,,,,99,False
-678,1705994824071189000,UptimeLabs,online-boutique,15.0,,1471.0,:alarm_clock: - You have less than 4 minutes. You can type `/help` if you need any reminders.,n/a,0,,,,,,93,False
-679,1705994829074668800,Bez,online-boutique,15.0,,1471.0,Really good work everyone!,n/a,0,,,,,,26,False
-680,1705994834097219000,Tinus,online-boutique,15.0,,1471.0,Cheers Bez we have a great team !,n/a,0,,,,,,33,False
-681,1705994838987549200,Bez,online-boutique,15.0,,1471.0,I don't think the Beatles would've anticipated cryptocurrency so let's keep it that way for now,n/a,0,,,,,,95,False
-682,1705994843987569200,Bez,online-boutique,15.0,,1471.0,@Gamunu Balagalla Good job saving the day,n/a,0,,,,,,41,False
-683,1705994855115529000,UptimeLabs,online-boutique,15.0,,1471.0,Start level 15 retro and feedback,n/a,0,,,,,,33,False
-684,1705994857181003000,gamunu@uptimelabs.io,online-boutique,15.0,,1471.0,Clicked Start_feedback button,n/a,0,,,,,,29,False
-685,1705994866066769000,UptimeLabs,online-boutique,15.0,,1471.0,Submission successful,n/a,0,,,,,,21,False
-686,1706004792679419100,Bez,online-boutique,15.0,,1472.0,Hey everyone. I'm pumped today about our flash sale,n/a,0,,,,,,51,False
-687,1706004798594449200,Bez,online-boutique,15.0,,1472.0,You know it's been 53 years since the Beatles released Abbey Road right? My favourite album,n/a,0,,,,,,91,True
-688,1706004803562038800,Tanya,online-boutique,15.0,,1472.0,53 years already?? Wow that makes me feel old...,n/a,0,,,,,,48,True
-689,1706004808518199000,Bez,online-boutique,15.0,,1472.0,Indeed! We're celebrating today by promoting a flash sale on retro items from 1969,n/a,0,,,,,,82,False
-690,1706004814493119000,Bez,online-boutique,15.0,,1472.0,I re-watched Paul McCartney's Glastonbury set last night to get in the mood!,n/a,0,,,,,,76,False
-691,1706004815570859000,UptimeLabs,online-boutique,15.0,,1472.0,Start lvl 15,n/a,0,,,,,,12,False
-692,1706004875408719000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,Hello,n/a,0,,,,,,5,False
-693,1706005227340902100,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,Clicked Start button,n/a,0,,,,,,20,False
-694,1706005227897889000,UptimeLabs,online-boutique,15.0,,1472.0,":alarm_clock: - You have 20 minutes to resolve the outage, good luck! You can type `/help` if you need any reminders.",n/a,0,,,,,,117,False
-695,1706005227918299000,Tinus,online-boutique,15.0,,1472.0,That sounds great Bez. Huge Beatles fan myself here,n/a,0,,,,,,51,False
-696,1706005232885249000,Tinus,online-boutique,15.0,,1472.0,We've just deployed a couple of changes into prod earlier but we should be all good,n/a,0,,,,,,83,False
-697,1706005237959769000,Tinus,online-boutique,15.0,,1472.0,We're a step closer to allowing folks to pay for items from the 1960s with Bitcoin thanks to Daniel!,n/a,0,,,,,,100,False
-698,1706005240917548800,Daniel,online-boutique,15.0,,1472.0,Think of it like time travelling!,n/a,0,,,,,,33,False
-699,1706005244903328800,Bez,online-boutique,15.0,,1472.0,Wow good work Daniel! Looking forward to seeing it in action in prod,n/a,0,,,,,,68,False
-700,1706005248870519000,Tinus,online-boutique,15.0,,1472.0,How's the test-driven development going?,n/a,0,,,,,,40,True
-701,1706005253873199000,Daniel,online-boutique,15.0,,1472.0,TDDs going well. We are as solid as a rock! Though don't ask me what the Liskov Substitution Principle is...,n/a,0,,,,,,108,False
-702,1706005260884718800,Bob,online-boutique,15.0,,1472.0,"erm - funny you should say that Daniel, it's not looking good today, something is up",n/a,0,,,,,,84,False
-703,1706005263923859000,Tanya,online-boutique,15.0,,1472.0,Sorry Daniel it's not looking good on my end either,n/a,0,,,,,,51,False
-704,1706005267963879200,Tinus,online-boutique,15.0,,1472.0,Uh oh...here we go again,n/a,0,,,,,,24,False
-705,1706005268968789000,Tinus,online-boutique,15.0,,1472.0,"@Andrew Crumpler can you ""Size up the Issue"" please and keep us informed",n/a,0,,,,,,72,False
-706,1706005278718478800,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,Yeah sure I'll take a look now,n/a,0,,,,,,30,False
-707,1706005282968239000,Bob,online-boutique,15.0,,1472.0,From what I can see it looks like we are still getting orders through,n/a,0,,,,,,69,False
-708,1706005290741159000,Shay,online-boutique,15.0,,1472.0,I'm on support with Dan Murray today. We are getting a lot of alerts. Are all the services healthy?,n/a,0,,,,,,99,True
-709,1706005291953909000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,What are you seeing Bob and Tanya?,n/a,0,,,,,,34,True
-710,1706005315576559000,Shay,online-boutique,15.0,,1472.0,"I've seen these two alerts:
+24,1705994157450259000,Daniel,online-boutique,15,,1471,"I am not sure what is going on, to be honest. I can place orders without any issues.",n/a,0,,,,,,84,False
+25,1705994188034318800,Bob,online-boutique,15,,1471,We've been advertising products on Instagram in the past hour so we will see a spike in traffic in today.,n/a,0,,,,,,105,False
+26,1705994223172439000,UptimeLabs,online-boutique,15,,1471,:alarm_clock: - You are 6 minutes in have you qualified the problem? You can type `/help` if you need any reminders.,n/a,0,,,,,,116,True
+27,1705994253209198800,Bob,online-boutique,15,,1471,There are few reports from users they can't purchase some of our advertised products,n/a,0,,,,,,84,False
+28,1705994429834579000,Bob,online-boutique,15,,1471,The customers are saying they can place the orders now,n/a,0,,,,,,54,False
+29,1705994433885319000,Tanya,online-boutique,15,,1471,Well done everyone!,n/a,0,,,,,,19,False
+30,1705994435922139000,Tinus,online-boutique,15,,1471,Are we sure it's fixed?,n/a,0,,,,,,23,True
+31,1705994439933839000,Daniel,online-boutique,15,,1471,Looks like it to me,n/a,0,,,,,,19,False
+32,1705994441953059000,Tinus,online-boutique,15,,1471,@Gamunu Balagalla what do you think?,n/a,0,,,,,,36,True
+33,1705994463442559000,UptimeLabs,online-boutique,15,,1471,":alarm_clock: - Half your time is up, stay focused. You can type `/help` if you need any reminders.",n/a,0,,,,,,99,False
+34,1705994824071189000,UptimeLabs,online-boutique,15,,1471,:alarm_clock: - You have less than 4 minutes. You can type `/help` if you need any reminders.,n/a,0,,,,,,93,False
+35,1705994829074668800,Bez,online-boutique,15,,1471,Really good work everyone!,n/a,0,,,,,,26,False
+36,1705994834097219000,Tinus,online-boutique,15,,1471,Cheers Bez we have a great team !,n/a,0,,,,,,33,False
+37,1705994838987549200,Bez,online-boutique,15,,1471,I don't think the Beatles would've anticipated cryptocurrency so let's keep it that way for now,n/a,0,,,,,,95,False
+38,1705994843987569200,Bez,online-boutique,15,,1471,@Gamunu Balagalla Good job saving the day,n/a,0,,,,,,41,False
+39,1705994855115529000,UptimeLabs,online-boutique,15,,1471,Start level 15 retro and feedback,n/a,0,,,,,,33,False
+40,1705994857181003000,gamunu@uptimelabs.io,online-boutique,15,,1471,Clicked Start_feedback button,n/a,0,,,,,,29,False
+41,1705994866066769000,UptimeLabs,online-boutique,15,,1471,Submission successful,n/a,0,,,,,,21,False
+42,1706004792679419100,Bez,online-boutique,15,,1472,Hey everyone. I'm pumped today about our flash sale,n/a,0,,,,,,51,False
+43,1706004798594449200,Bez,online-boutique,15,,1472,You know it's been 53 years since the Beatles released Abbey Road right? My favourite album,n/a,0,,,,,,91,True
+44,1706004803562038800,Tanya,online-boutique,15,,1472,53 years already?? Wow that makes me feel old...,n/a,0,,,,,,48,True
+45,1706004808518199000,Bez,online-boutique,15,,1472,Indeed! We're celebrating today by promoting a flash sale on retro items from 1969,n/a,0,,,,,,82,False
+46,1706004814493119000,Bez,online-boutique,15,,1472,I re-watched Paul McCartney's Glastonbury set last night to get in the mood!,n/a,0,,,,,,76,False
+47,1706004815570859000,UptimeLabs,online-boutique,15,,1472,Start lvl 15,n/a,0,,,,,,12,False
+48,1706004875408719000,andrew.crumpler@photobox.com,online-boutique,15,,1472,Hello,n/a,0,,,,,,5,False
+49,1706005227340902100,andrew.crumpler@photobox.com,online-boutique,15,,1472,Clicked Start button,n/a,0,,,,,,20,False
+50,1706005227897889000,UptimeLabs,online-boutique,15,,1472,":alarm_clock: - You have 20 minutes to resolve the outage, good luck! You can type `/help` if you need any reminders.",n/a,0,,,,,,117,False
+51,1706005227918299000,Tinus,online-boutique,15,,1472,That sounds great Bez. Huge Beatles fan myself here,n/a,0,,,,,,51,False
+52,1706005232885249000,Tinus,online-boutique,15,,1472,We've just deployed a couple of changes into prod earlier but we should be all good,n/a,0,,,,,,83,False
+53,1706005237959769000,Tinus,online-boutique,15,,1472,We're a step closer to allowing folks to pay for items from the 1960s with Bitcoin thanks to Daniel!,n/a,0,,,,,,100,False
+54,1706005240917548800,Daniel,online-boutique,15,,1472,Think of it like time travelling!,n/a,0,,,,,,33,False
+55,1706005244903328800,Bez,online-boutique,15,,1472,Wow good work Daniel! Looking forward to seeing it in action in prod,n/a,0,,,,,,68,False
+56,1706005248870519000,Tinus,online-boutique,15,,1472,How's the test-driven development going?,n/a,0,,,,,,40,True
+57,1706005253873199000,Daniel,online-boutique,15,,1472,TDDs going well. We are as solid as a rock! Though don't ask me what the Liskov Substitution Principle is...,n/a,0,,,,,,108,False
+58,1706005260884718800,Bob,online-boutique,15,,1472,"erm - funny you should say that Daniel, it's not looking good today, something is up",n/a,0,,,,,,84,False
+59,1706005263923859000,Tanya,online-boutique,15,,1472,Sorry Daniel it's not looking good on my end either,n/a,0,,,,,,51,False
+60,1706005267963879200,Tinus,online-boutique,15,,1472,Uh oh...here we go again,n/a,0,,,,,,24,False
+61,1706005268968789000,Tinus,online-boutique,15,,1472,"@Andrew Crumpler can you ""Size up the Issue"" please and keep us informed",n/a,0,,,,,,72,False
+62,1706005278718478800,andrew.crumpler@photobox.com,online-boutique,15,,1472,Yeah sure I'll take a look now,n/a,0,,,,,,30,False
+63,1706005282968239000,Bob,online-boutique,15,,1472,From what I can see it looks like we are still getting orders through,n/a,0,,,,,,69,False
+64,1706005290741159000,Shay,online-boutique,15,,1472,I'm on support with Dan Murray today. We are getting a lot of alerts. Are all the services healthy?,n/a,0,,,,,,99,True
+65,1706005291953909000,andrew.crumpler@photobox.com,online-boutique,15,,1472,What are you seeing Bob and Tanya?,n/a,0,,,,,,34,True
+66,1706005315576559000,Shay,online-boutique,15,,1472,"I've seen these two alerts:
 
 ```
 Alert: SEV-4 - ProductCatalogue: High Warning Rate in Log Messages [warning]
@@ -738,110 +82,269 @@ Alert: SEV-4 - ProductCatalogue: High Warning Rate in Log Messages [warning]
 ```
 Alert: SEV-1 - Error in processing payments [critical]
 ```",n/a,0,,,,,,177,False
-711,1706005319932069000,Bez,online-boutique,15.0,,1472.0,Get this sorted ASAP!!!,n/a,0,,,,,,23,False
-712,1706005327745219000,Bob,online-boutique,15.0,,1472.0,Andy Moore We've been advertising products on Instagram in the past hour so we will see a spike in traffic in today.,n/a,0,,,,,,116,False
-713,1706005327883799000,Daniel,online-boutique,15.0,,1472.0,@Bob it could be UK only issue? I can also see orders coming through,n/a,0,,,,,,68,True
-714,1706005340889169000,dan.murray@photobox.com,online-boutique,15.0,,1472.0,I'll check the monitoring & alerting,n/a,0,,,,,,36,False
-715,1706005377671539000,Bob,online-boutique,15.0,,1472.0,Andy Moore There are a few reports from users they can't purchase some of our advertised products.,n/a,0,,,,,,98,False
-716,1706005398588429000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,Okay we got a payments problem gonna create an incident for this,n/a,0,,,,,,64,False
-717,1706005423113729000,andrew.crumpler,online-boutique,15.0,,1472.0,*Incident Number INC100090:* Sev 1 Payments processing is erroring details to follow,n/a,0,,,,,,84,False
-718,1706005423231819000,UptimeLabs,online-boutique,15.0,,1472.0,:star: Incident record created,n/a,0,,,,,,30,False
-719,1706005425329489000,UptimeLabs,online-boutique,15.0,,1472.0,:star: Send first comms in first 5 minutes,n/a,0,,,,,,42,False
-720,1706005435582948900,Bob,online-boutique,15.0,,1472.0,to be specific the customers are saying they can't  see some of the products,n/a,0,,,,,,76,False
-721,1706005483045959000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,"Yeah I noticed that some products weren't being displayed as well, shall we treat these as separate incidents for now",n/a,0,,,,,,117,False
-722,1706005500764259000,dan.murray@photobox.com,online-boutique,15.0,,1472.0,pls can someone confirm contents of the recent change mentioned,n/a,0,,,,,,63,False
-723,1706005502266079000,UptimeLabs,online-boutique,15.0,,1472.0,:star: Reproduces the incident,n/a,0,,,,,,30,False
-724,1706005541923719000,Daniel,online-boutique,15.0,,1472.0,"I am not sure what is going on, to be honest. I can place orders without any issues.",n/a,0,,,,,,84,False
-725,1706005552713749000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,"INC100090 Payments error - Orders are created, errors reported from payments processing",n/a,0,,,,,,87,False
-726,1706005557272949000,Daniel,online-boutique,15.0,,1472.0,Dan Murray did you find any issues with  our platform,n/a,0,,,,,,53,False
-727,1706005588188819000,UptimeLabs,online-boutique,15.0,,1472.0,:alarm_clock: - You are 6 minutes in have you qualified the problem? You can type `/help` if you need any reminders.,n/a,0,,,,,,116,True
-728,1706005658933179000,dan.murray@photobox.com,online-boutique,15.0,,1472.0,checking k8s cluster now,n/a,0,,,,,,24,False
-729,1706005659602569200,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,Dan Murray or Daniel are any of our recent changes in this service?,n/a,0,,,,,,67,True
-730,1706005685836119000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,"Let's focus on the payments issue for now, I will create the incident for the catalogue as well",n/a,0,,,,,,95,False
-731,1706005705709649200,Daniel,online-boutique,15.0,,1472.0,We have made a couple of changes to the payment workflow. Nothing should impact production,n/a,0,,,,,,90,False
-732,1706005707416718800,andrew.crumpler,online-boutique,15.0,,1472.0,*Incident Number INC100048:* Sev4 Product catalogue not displaying all products correctly,n/a,0,,,,,,89,False
-733,1706005724943689200,UptimeLabs,online-boutique,15.0,,1472.0,:star: Form an effective investigation team,n/a,0,,,,,,43,False
-734,1706005739737609000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,"INC100090 Payments error - Being prioritised, recent changes being investigated, high error rate in currency service",n/a,0,,,,,,116,False
-735,1706005745790689000,UptimeLabs,online-boutique,15.0,,1472.0,:star: Incident record is created,n/a,0,,,,,,33,False
-736,1706005808257209000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,"We have a recent change to the currency service - 2024-01-23 09:22:08
+67,1706005319932069000,Bez,online-boutique,15,,1472,Get this sorted ASAP!!!,n/a,0,,,,,,23,False
+68,1706005327745219000,Bob,online-boutique,15,,1472,Andy Moore We've been advertising products on Instagram in the past hour so we will see a spike in traffic in today.,n/a,0,,,,,,116,False
+69,1706005327883799000,Daniel,online-boutique,15,,1472,@Bob it could be UK only issue? I can also see orders coming through,n/a,0,,,,,,68,True
+70,1706005340889169000,dan.murray@photobox.com,online-boutique,15,,1472,I'll check the monitoring & alerting,n/a,0,,,,,,36,False
+71,1706005377671539000,Bob,online-boutique,15,,1472,Andy Moore There are a few reports from users they can't purchase some of our advertised products.,n/a,0,,,,,,98,False
+72,1706005398588429000,andrew.crumpler@photobox.com,online-boutique,15,,1472,Okay we got a payments problem gonna create an incident for this,n/a,0,,,,,,64,False
+73,1706005423113729000,andrew.crumpler,online-boutique,15,,1472,*Incident Number INC100090:* Sev 1 Payments processing is erroring details to follow,n/a,0,,,,,,84,False
+74,1706005423231819000,UptimeLabs,online-boutique,15,,1472,:star: Incident record created,n/a,0,,,,,,30,False
+75,1706005425329489000,UptimeLabs,online-boutique,15,,1472,:star: Send first comms in first 5 minutes,n/a,0,,,,,,42,False
+76,1706005435582948900,Bob,online-boutique,15,,1472,to be specific the customers are saying they can't  see some of the products,n/a,0,,,,,,76,False
+77,1706005483045959000,andrew.crumpler@photobox.com,online-boutique,15,,1472,"Yeah I noticed that some products weren't being displayed as well, shall we treat these as separate incidents for now",n/a,0,,,,,,117,False
+78,1706005500764259000,dan.murray@photobox.com,online-boutique,15,,1472,pls can someone confirm contents of the recent change mentioned,n/a,0,,,,,,63,False
+79,1706005502266079000,UptimeLabs,online-boutique,15,,1472,:star: Reproduces the incident,n/a,0,,,,,,30,False
+80,1706005541923719000,Daniel,online-boutique,15,,1472,"I am not sure what is going on, to be honest. I can place orders without any issues.",n/a,0,,,,,,84,False
+81,1706005552713749000,andrew.crumpler@photobox.com,online-boutique,15,,1472,"INC100090 Payments error - Orders are created, errors reported from payments processing",n/a,0,,,,,,87,False
+82,1706005557272949000,Daniel,online-boutique,15,,1472,Dan Murray did you find any issues with  our platform,n/a,0,,,,,,53,False
+83,1706005588188819000,UptimeLabs,online-boutique,15,,1472,:alarm_clock: - You are 6 minutes in have you qualified the problem? You can type `/help` if you need any reminders.,n/a,0,,,,,,116,True
+84,1706005658933179000,dan.murray@photobox.com,online-boutique,15,,1472,checking k8s cluster now,n/a,0,,,,,,24,False
+85,1706005659602569200,andrew.crumpler@photobox.com,online-boutique,15,,1472,Dan Murray or Daniel are any of our recent changes in this service?,n/a,0,,,,,,67,True
+86,1706005685836119000,andrew.crumpler@photobox.com,online-boutique,15,,1472,"Let's focus on the payments issue for now, I will create the incident for the catalogue as well",n/a,0,,,,,,95,False
+87,1706005705709649200,Daniel,online-boutique,15,,1472,We have made a couple of changes to the payment workflow. Nothing should impact production,n/a,0,,,,,,90,False
+88,1706005707416718800,andrew.crumpler,online-boutique,15,,1472,*Incident Number INC100048:* Sev4 Product catalogue not displaying all products correctly,n/a,0,,,,,,89,False
+89,1706005724943689200,UptimeLabs,online-boutique,15,,1472,:star: Form an effective investigation team,n/a,0,,,,,,43,False
+90,1706005739737609000,andrew.crumpler@photobox.com,online-boutique,15,,1472,"INC100090 Payments error - Being prioritised, recent changes being investigated, high error rate in currency service",n/a,0,,,,,,116,False
+91,1706005745790689000,UptimeLabs,online-boutique,15,,1472,:star: Incident record is created,n/a,0,,,,,,33,False
+92,1706005808257209000,andrew.crumpler@photobox.com,online-boutique,15,,1472,"We have a recent change to the currency service - 2024-01-23 09:22:08
 Shay
 PROD
 CHG89358
 CHG89358:CheckoutService:version 0.8.0-15.0.0 deployed:PROD:Shay",n/a,0,,,,,,153,False
-737,1706005816268548900,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,Seems like a smoking gun to me,n/a,0,,,,,,30,False
-738,1706005828528558800,UptimeLabs,online-boutique,15.0,,1472.0,":alarm_clock: - Half your time is up, stay focused. You can type `/help` if you need any reminders.",n/a,0,,,,,,99,False
-739,1706005842918499000,dan.murray@photobox.com,online-boutique,15.0,,1472.0,"nothing useful I can see in the currencyservice logs:
+93,1706005816268548900,andrew.crumpler@photobox.com,online-boutique,15,,1472,Seems like a smoking gun to me,n/a,0,,,,,,30,False
+94,1706005828528558800,UptimeLabs,online-boutique,15,,1472,":alarm_clock: - Half your time is up, stay focused. You can type `/help` if you need any reminders.",n/a,0,,,,,,99,False
+95,1706005842918499000,dan.murray@photobox.com,online-boutique,15,,1472,"nothing useful I can see in the currencyservice logs:
 ```{""severity"":""info"",""time"":1706005787346,""pid"":1,""hostname"":""currencyservice-c9d5d6694-s8pgf"",""name"":""currencyservice-server"",""message"":""conversion request successful""}```",n/a,0,,,,,,227,False
-740,1706005877781489000,UptimeLabs,online-boutique,15.0,,1472.0,:bulb: Ask team members to provide evidence of their assertions,n/a,0,,,,,,63,False
-741,1706005893957579000,UptimeLabs,online-boutique,15.0,,1472.0,:star: Check changes done to the platform,n/a,0,,,,,,41,False
-742,1706005895738189000,Daniel,online-boutique,15.0,,1472.0,"we worked on Bitcoin payment integration; the changes we made to currency service, and checkoutservice both",n/a,0,,,,,,107,False
-743,1706005909132959000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,Daniel How can we be sure that the recent change hasn't affected production and caused this incident?,n/a,0,,,,,,101,True
-744,1706005936976878800,dan.murray@photobox.com,online-boutique,15.0,,1472.0,"checkoutservice returning the following:
+96,1706005877781489000,UptimeLabs,online-boutique,15,,1472,:bulb: Ask team members to provide evidence of their assertions,n/a,0,,,,,,63,False
+97,1706005893957579000,UptimeLabs,online-boutique,15,,1472,:star: Check changes done to the platform,n/a,0,,,,,,41,False
+98,1706005895738189000,Daniel,online-boutique,15,,1472,"we worked on Bitcoin payment integration; the changes we made to currency service, and checkoutservice both",n/a,0,,,,,,107,False
+99,1706005909132959000,andrew.crumpler@photobox.com,online-boutique,15,,1472,Daniel How can we be sure that the recent change hasn't affected production and caused this incident?,n/a,0,,,,,,101,True
+100,1706005936976878800,dan.murray@photobox.com,online-boutique,15,,1472,"checkoutservice returning the following:
 ```{""message"":""[PlaceOrder] user_id=\""74f80f52-16e1-45a5-88a1-7c44774684ad\"" payment proessing failed, attempted to pay BTC"",""severity"":""error"",""timestamp"":""2024-01-23T10:31:13.604082793Z""}```",n/a,0,,,,,,233,False
-745,1706005953269079000,Bob,online-boutique,15.0,,1472.0,Andy Moore We have a critical situation. Customers are unable to purchase the products and items currently advertised on Instagram.,n/a,0,,,,,,131,False
-746,1706005971675319000,Bob,online-boutique,15.0,,1472.0,Are we supposed to go live with BTC yet? ,n/a,0,,,,,,41,True
-747,1706006003746389000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,"Looks like bitcoin payments are incorrectly trying to happen, anyway we can disable that?",n/a,0,,,,,,89,True
-748,1706006006727329000,dan.murray@photobox.com,online-boutique,15.0,,1472.0,how easy is it to back out the last change to enable bitcoin pls Shay?,n/a,0,,,,,,70,True
-749,1706006025613858800,Shay,online-boutique,15.0,,1472.0,all the new features should be under feature flags,n/a,0,,,,,,50,False
-750,1706006026350119200,Shay,online-boutique,15.0,,1472.0,<https://docs.ob.uptimelabs.io/docs/runbooks/services/checkout/#enabling-btc-payment>,n/a,0,,,,,,85,False
-751,1706006028656679000,Shay,online-boutique,15.0,,1472.0,I found this,n/a,0,,,,,,12,False
-752,1706006035691189000,UptimeLabs,online-boutique,15.0,,1472.0,:star: Form a working theory,n/a,0,,,,,,28,False
-753,1706006074072199200,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,"Bob We're looking at the incidents in priority order, payments will be dealt with then we will tackle the catalogue updates will be in the business coms channel",n/a,0,,,,,,160,False
-754,1706006115350589000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,"INC100090 Payments Error - The issue has been narrowed down to the changes to enable bitcoin payments, it seems to be incorrectly enabled",n/a,0,,,,,,137,False
-755,1706006117598799000,Bob,online-boutique,15.0,,1472.0,"Andy Moore The product issue is causing a financial loss and damaging our brand reputation. We need an immediate resolution to this issue to prevent further loss and ensure customer satisfaction.
+101,1706005953269079000,Bob,online-boutique,15,,1472,Andy Moore We have a critical situation. Customers are unable to purchase the products and items currently advertised on Instagram.,n/a,0,,,,,,131,False
+102,1706005971675319000,Bob,online-boutique,15,,1472,Are we supposed to go live with BTC yet? ,n/a,0,,,,,,41,True
+103,1706006003746389000,andrew.crumpler@photobox.com,online-boutique,15,,1472,"Looks like bitcoin payments are incorrectly trying to happen, anyway we can disable that?",n/a,0,,,,,,89,True
+104,1706006006727329000,dan.murray@photobox.com,online-boutique,15,,1472,how easy is it to back out the last change to enable bitcoin pls Shay?,n/a,0,,,,,,70,True
+105,1706006025613858800,Shay,online-boutique,15,,1472,all the new features should be under feature flags,n/a,0,,,,,,50,False
+106,1706006026350119200,Shay,online-boutique,15,,1472,<https://docs.ob.uptimelabs.io/docs/runbooks/services/checkout/#enabling-btc-payment>,n/a,0,,,,,,85,False
+107,1706006028656679000,Shay,online-boutique,15,,1472,I found this,n/a,0,,,,,,12,False
+108,1706006035691189000,UptimeLabs,online-boutique,15,,1472,:star: Form a working theory,n/a,0,,,,,,28,False
+109,1706006074072199200,andrew.crumpler@photobox.com,online-boutique,15,,1472,"Bob We're looking at the incidents in priority order, payments will be dealt with then we will tackle the catalogue updates will be in the business coms channel",n/a,0,,,,,,160,False
+110,1706006115350589000,andrew.crumpler@photobox.com,online-boutique,15,,1472,"INC100090 Payments Error - The issue has been narrowed down to the changes to enable bitcoin payments, it seems to be incorrectly enabled",n/a,0,,,,,,137,False
+111,1706006117598799000,Bob,online-boutique,15,,1472,"Andy Moore The product issue is causing a financial loss and damaging our brand reputation. We need an immediate resolution to this issue to prevent further loss and ensure customer satisfaction.
 ",n/a,0,,,,,,196,False
-756,1706006124060459000,dan.murray@photobox.com,online-boutique,15.0,,1472.0,Shay - where can I enable/disable that feature flag pls - in lubectl?,n/a,0,,,,,,69,True
-757,1706006161230729200,dan.murray@photobox.com,online-boutique,15.0,,1472.0,looking here - <https://docs.ob.uptimelabs.io/docs/runbooks/argocd/argocd-parameters-update/>,n/a,0,,,,,,93,False
-758,1706006168348929000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,"INC100048 Catalogue - Some products don't show, and have no picture, when selected navigates to a 404 not found page, incident 100090 is taking priority currently but this will be investigated soon",n/a,0,,,,,,197,False
-759,1706006182062499000,Bob,online-boutique,15.0,,1472.0,"Andy Moore I haven't received any reports of payment issues, but see a lot of complains on not product not being accessible. ",n/a,0,,,,,,125,False
-760,1706006185843999000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,Tanya Are you available to investigate the catalogue issue for me please,n/a,0,,,,,,72,False
-761,1706006188926079000,UptimeLabs,online-boutique,15.0,,1472.0,:alarm_clock: - You have less than 4 minutes. You can type `/help` if you need any reminders.,n/a,0,,,,,,93,False
-762,1706006207980088800,Tanya,online-boutique,15.0,,1472.0,Yes I'm looking into it,n/a,0,,,,,,23,False
-763,1706006237504439000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,"Tanya The details - INC100048 - some products aren't shown, there are images which aren't loading for them, whens selected user is navigated to 404 not found screen",n/a,0,,,,,,164,False
-764,1706006237538959000,dan.murray@photobox.com,online-boutique,15.0,,1472.0,I'm looking at params in argocd now,n/a,0,,,,,,35,False
-765,1706006251884388900,Shay,online-boutique,15.0,,1472.0,Dan Murray I think we need to escalate to bob to disable bitcoin feature flag. ,n/a,0,,,,,,79,False
-766,1706006299814099200,Shay,online-boutique,15.0,,1472.0,the product team handles the feature flags for specific regions,n/a,0,,,,,,63,False
-767,1706006302101169200,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,"Bob Could you disable the bitcoin feature flag please, with urgency",n/a,0,,,,,,67,False
-768,1706006306716238800,Shay,online-boutique,15.0,,1472.0,bob has the access to it,n/a,0,,,,,,24,False
-769,1706006309093139000,UptimeLabs,online-boutique,15.0,,1472.0,":alarm_clock: - You have less than 2 minutes remaining, remember communication is key. You can type `/help` if you need any reminders.",n/a,0,,,,,,134,False
-770,1706006331827929000,UptimeLabs,online-boutique,15.0,,1472.0,:bulb: Hint: Track actions and time box them,n/a,0,,,,,,44,False
-771,1706006338927099000,Bob,online-boutique,15.0,,1472.0,"oh that's not good, I'm chasing my team Andy Moore",n/a,0,,,,,,50,False
-772,1706006344920489000,Bob,online-boutique,15.0,,1472.0,will report back in a minute,n/a,0,,,,,,28,False
-773,1706006381485939000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,The catalogue issues seem realted to ad service,n/a,0,,,,,,47,False
-774,1706006388211519000,Bob,online-boutique,15.0,,1472.0,"Andy Moore consider the product issue as a high priority, we have increased complains about this issue",n/a,0,,,,,,102,False
-775,1706006403234379000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,"The issue seems to occur only in the ads bar, Tanya could you investigate with Dan Murray please",n/a,0,,,,,,96,False
-776,1706006422589929200,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,Bob we are investigating that now,n/a,0,,,,,,33,False
-777,1706006437925979000,UptimeLabs,online-boutique,15.0,,1472.0,:star: Escalating when required,n/a,0,,,,,,31,False
-778,1706006439308019000,UptimeLabs,online-boutique,15.0,,1472.0,Start level 15 retro and feedback,n/a,0,,,,,,33,False
-779,1706006442127779000,Tanya,online-boutique,15.0,,1472.0,Dan Murray do you see any errors in the product catalogue service?,n/a,0,,,,,,66,True
-780,1706006443446959000,UptimeLabs,online-boutique,15.0,,1472.0,:star: Communicating clearly and frequently,n/a,0,,,,,,43,False
-781,1706006459541358800,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,INC100090 Payments error - Feature flag being chased by Bob to diable bitcoin payments,n/a,0,,,,,,86,False
-782,1706006469461409000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,INC100048 Investigtion into ads underway,n/a,0,,,,,,40,False
-783,1706006480475589000,dan.murray@photobox.com,online-boutique,15.0,,1472.0,Tanya - checking,n/a,0,,,,,,16,False
-784,1706006523463579000,Tinus,online-boutique,15.0,,1472.0,"team, how are we doing with two issues?",n/a,0,,,,,,39,True
-785,1706006531725929000,dan.murray@photobox.com,online-boutique,15.0,,1472.0,"seeing the following error in productservice logs:
+112,1706006124060459000,dan.murray@photobox.com,online-boutique,15,,1472,Shay - where can I enable/disable that feature flag pls - in lubectl?,n/a,0,,,,,,69,True
+113,1706006161230729200,dan.murray@photobox.com,online-boutique,15,,1472,looking here - <https://docs.ob.uptimelabs.io/docs/runbooks/argocd/argocd-parameters-update/>,n/a,0,,,,,,93,False
+114,1706006168348929000,andrew.crumpler@photobox.com,online-boutique,15,,1472,"INC100048 Catalogue - Some products don't show, and have no picture, when selected navigates to a 404 not found page, incident 100090 is taking priority currently but this will be investigated soon",n/a,0,,,,,,197,False
+115,1706006182062499000,Bob,online-boutique,15,,1472,"Andy Moore I haven't received any reports of payment issues, but see a lot of complains on not product not being accessible. ",n/a,0,,,,,,125,False
+116,1706006185843999000,andrew.crumpler@photobox.com,online-boutique,15,,1472,Tanya Are you available to investigate the catalogue issue for me please,n/a,0,,,,,,72,False
+117,1706006188926079000,UptimeLabs,online-boutique,15,,1472,:alarm_clock: - You have less than 4 minutes. You can type `/help` if you need any reminders.,n/a,0,,,,,,93,False
+118,1706006207980088800,Tanya,online-boutique,15,,1472,Yes I'm looking into it,n/a,0,,,,,,23,False
+119,1706006237504439000,andrew.crumpler@photobox.com,online-boutique,15,,1472,"Tanya The details - INC100048 - some products aren't shown, there are images which aren't loading for them, whens selected user is navigated to 404 not found screen",n/a,0,,,,,,164,False
+120,1706006237538959000,dan.murray@photobox.com,online-boutique,15,,1472,I'm looking at params in argocd now,n/a,0,,,,,,35,False
+121,1706006251884388900,Shay,online-boutique,15,,1472,Dan Murray I think we need to escalate to bob to disable bitcoin feature flag. ,n/a,0,,,,,,79,False
+122,1706006299814099200,Shay,online-boutique,15,,1472,the product team handles the feature flags for specific regions,n/a,0,,,,,,63,False
+123,1706006302101169200,andrew.crumpler@photobox.com,online-boutique,15,,1472,"Bob Could you disable the bitcoin feature flag please, with urgency",n/a,0,,,,,,67,False
+124,1706006306716238800,Shay,online-boutique,15,,1472,bob has the access to it,n/a,0,,,,,,24,False
+125,1706006309093139000,UptimeLabs,online-boutique,15,,1472,":alarm_clock: - You have less than 2 minutes remaining, remember communication is key. You can type `/help` if you need any reminders.",n/a,0,,,,,,134,False
+126,1706006331827929000,UptimeLabs,online-boutique,15,,1472,:bulb: Hint: Track actions and time box them,n/a,0,,,,,,44,False
+127,1706006338927099000,Bob,online-boutique,15,,1472,"oh that's not good, I'm chasing my team Andy Moore",n/a,0,,,,,,50,False
+128,1706006344920489000,Bob,online-boutique,15,,1472,will report back in a minute,n/a,0,,,,,,28,False
+129,1706006381485939000,andrew.crumpler@photobox.com,online-boutique,15,,1472,The catalogue issues seem realted to ad service,n/a,0,,,,,,47,False
+130,1706006388211519000,Bob,online-boutique,15,,1472,"Andy Moore consider the product issue as a high priority, we have increased complains about this issue",n/a,0,,,,,,102,False
+131,1706006403234379000,andrew.crumpler@photobox.com,online-boutique,15,,1472,"The issue seems to occur only in the ads bar, Tanya could you investigate with Dan Murray please",n/a,0,,,,,,96,False
+132,1706006422589929200,andrew.crumpler@photobox.com,online-boutique,15,,1472,Bob we are investigating that now,n/a,0,,,,,,33,False
+133,1706006437925979000,UptimeLabs,online-boutique,15,,1472,:star: Escalating when required,n/a,0,,,,,,31,False
+134,1706006439308019000,UptimeLabs,online-boutique,15,,1472,Start level 15 retro and feedback,n/a,0,,,,,,33,False
+135,1706006442127779000,Tanya,online-boutique,15,,1472,Dan Murray do you see any errors in the product catalogue service?,n/a,0,,,,,,66,True
+136,1706006443446959000,UptimeLabs,online-boutique,15,,1472,:star: Communicating clearly and frequently,n/a,0,,,,,,43,False
+137,1706006459541358800,andrew.crumpler@photobox.com,online-boutique,15,,1472,INC100090 Payments error - Feature flag being chased by Bob to diable bitcoin payments,n/a,0,,,,,,86,False
+138,1706006469461409000,andrew.crumpler@photobox.com,online-boutique,15,,1472,INC100048 Investigtion into ads underway,n/a,0,,,,,,40,False
+139,1706006480475589000,dan.murray@photobox.com,online-boutique,15,,1472,Tanya - checking,n/a,0,,,,,,16,False
+140,1706006523463579000,Tinus,online-boutique,15,,1472,"team, how are we doing with two issues?",n/a,0,,,,,,39,True
+141,1706006531725929000,dan.murray@photobox.com,online-boutique,15,,1472,"seeing the following error in productservice logs:
 ```{""message"":""[Product] '9SIQT8TOJO' visiblity is private, please use elavated privileges to view this product"",""severity"":""warning"",""timestamp"":""2024-01-23T10:41:52.636843984Z""}```",n/a,0,,,,,,233,False
-786,1706006560632799000,Bob,online-boutique,15.0,,1472.0,"Andy Moore we disabled BTC, one of my team members accidently enabled it",n/a,0,,,,,,72,False
-787,1706006583781239000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,"Excellent thanks bob, can you and your team test the payments please",n/a,0,,,,,,68,False
-788,1706006586815329000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,and report bac,n/a,0,,,,,,14,False
-789,1706006588162959000,dan.murray@photobox.com,online-boutique,15.0,,1472.0,thanks Bob let me check m&a,n/a,0,,,,,,27,False
-790,1706006609759629000,Tanya,online-boutique,15.0,,1472.0,Dan Murray bob has control on the product visibility ,n/a,0,,,,,,53,False
-791,1706006670194129000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,"Bob It sounds like you also need to check the product visibility, could you and your team make the affected products visible on your platform",n/a,0,,,,,,141,False
-792,1706006712406109200,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,INC100090 Payments ERrror - Bitcoin payments now disabled,n/a,0,,,,,,57,False
-793,1706006722804319000,Bob,online-boutique,15.0,,1472.0,"Ok, this is not a good day for me. I working with team",n/a,0,,,,,,54,False
-794,1706006731036139000,Bob,online-boutique,15.0,,1472.0,Andy Moore,n/a,0,,,,,,10,False
-795,1706006756468069000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,"INC100048 - Catalogue products have been made not visible incorrectly, work underway to fix",n/a,0,,,,,,91,False
-796,1706006787380739000,Bob,online-boutique,15.0,,1472.0,I confirmed with customers they can see the products now,n/a,0,,,,,,56,False
-797,1706006805658719000,Bez,online-boutique,15.0,,1472.0,"Are both incidents closed, Andy Moore?",n/a,0,,,,,,38,True
-798,1706006820097119000,UptimeLabs,online-boutique,15.0,,1472.0,:star: Cross checking resolution with team,n/a,0,,,,,,42,False
-799,1706006827908849000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,Looks like we have solved both incidents,n/a,0,,,,,,40,False
-800,1706006832313988900,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,Closing both now,n/a,0,,,,,,16,False
-801,1706006836704969000,Tinus,online-boutique,15.0,,1472.0,"Fantastic work, team.",n/a,0,,,,,,21,False
-802,1706006844818679000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,"INC100090 - Incident closed, issue solved",n/a,0,,,,,,41,False
-803,1706006846002069000,UptimeLabs,online-boutique,15.0,,1472.0,:bulb: Hint: Confirm resolution with the business,n/a,0,,,,,,49,False
-804,1706006854881769000,andrew.crumpler@photobox.com,online-boutique,15.0,,1472.0,INC100048 - INcident closed issue resolved,n/a,0,,,,,,42,False
-805,1705488656452459000,Slackbot,,,,,Conail Tierney archived the channel <https://uptimelabs-metaverse.slack.com/archives/C06D8JA7PJS|#ob-inc1449>,n/a,0,,,,,,109,False
-806,1705577802805729000,Slackbot,,,,,Conail Tierney archived the channel <https://uptimelabs-metaverse.slack.com/archives/C06AV97GG1E|#ob-inc1403>,n/a,0,,,,,,109,False
-807,1705577836560359000,Slackbot,,,,,Conail Tierney archived the channel <https://uptimelabs-metaverse.slack.com/archives/C069RV7AHC7|#ob-business-comms1403>,n/a,0,,,,,,120,False
-808,1705593724247608800,UptimeLabs,,,,,New User has registered,n/a,0,,,,,,23,False
-809,1705917953343049000,UptimeLabs,,,,,New User has registered,n/a,0,,,,,,23,False
+142,1706006560632799000,Bob,online-boutique,15,,1472,"Andy Moore we disabled BTC, one of my team members accidently enabled it",n/a,0,,,,,,72,False
+143,1706006583781239000,andrew.crumpler@photobox.com,online-boutique,15,,1472,"Excellent thanks bob, can you and your team test the payments please",n/a,0,,,,,,68,False
+144,1706006586815329000,andrew.crumpler@photobox.com,online-boutique,15,,1472,and report bac,n/a,0,,,,,,14,False
+145,1706006588162959000,dan.murray@photobox.com,online-boutique,15,,1472,thanks Bob let me check m&a,n/a,0,,,,,,27,False
+146,1706006609759629000,Tanya,online-boutique,15,,1472,Dan Murray bob has control on the product visibility ,n/a,0,,,,,,53,False
+147,1706006670194129000,andrew.crumpler@photobox.com,online-boutique,15,,1472,"Bob It sounds like you also need to check the product visibility, could you and your team make the affected products visible on your platform",n/a,0,,,,,,141,False
+148,1706006712406109200,andrew.crumpler@photobox.com,online-boutique,15,,1472,INC100090 Payments ERrror - Bitcoin payments now disabled,n/a,0,,,,,,57,False
+149,1706006722804319000,Bob,online-boutique,15,,1472,"Ok, this is not a good day for me. I working with team",n/a,0,,,,,,54,False
+150,1706006731036139000,Bob,online-boutique,15,,1472,Andy Moore,n/a,0,,,,,,10,False
+151,1706006756468069000,andrew.crumpler@photobox.com,online-boutique,15,,1472,"INC100048 - Catalogue products have been made not visible incorrectly, work underway to fix",n/a,0,,,,,,91,False
+152,1706006787380739000,Bob,online-boutique,15,,1472,I confirmed with customers they can see the products now,n/a,0,,,,,,56,False
+153,1706006805658719000,Bez,online-boutique,15,,1472,"Are both incidents closed, Andy Moore?",n/a,0,,,,,,38,True
+154,1706006820097119000,UptimeLabs,online-boutique,15,,1472,:star: Cross checking resolution with team,n/a,0,,,,,,42,False
+155,1706006827908849000,andrew.crumpler@photobox.com,online-boutique,15,,1472,Looks like we have solved both incidents,n/a,0,,,,,,40,False
+156,1706006832313988900,andrew.crumpler@photobox.com,online-boutique,15,,1472,Closing both now,n/a,0,,,,,,16,False
+157,1706006836704969000,Tinus,online-boutique,15,,1472,"Fantastic work, team.",n/a,0,,,,,,21,False
+158,1706006844818679000,andrew.crumpler@photobox.com,online-boutique,15,,1472,"INC100090 - Incident closed, issue solved",n/a,0,,,,,,41,False
+159,1706006846002069000,UptimeLabs,online-boutique,15,,1472,:bulb: Hint: Confirm resolution with the business,n/a,0,,,,,,49,False
+160,1706006854881769000,andrew.crumpler@photobox.com,online-boutique,15,,1472,INC100048 - INcident closed issue resolved,n/a,0,,,,,,42,False
+161,1706008641913289000,UptimeLabs,online-boutique,12,,1473,Start Drill,n/a,0,,,,,,11,False
+162,1706008655439384800,conail@uptimelabs.io,online-boutique,12,,1473,Clicked Start button,n/a,0,,,,,,20,False
+163,1706008656108969000,Bez,online-boutique,12,,1473,"So, business wise, we are on target for this months sales. Having said that we are too close to the target. We need every penny of every minute to stay on course.",n/a,0,,,,,,162,False
+164,1706008663030699000,Bez,online-boutique,12,,1473,Please make sure systems are healthy so we can hit target.,n/a,0,,,,,,58,False
+165,1706008667080199000,Tinus,online-boutique,12,,1473,"Welcome to the team @Conail Tierney. everone is here to help, how are you finding things so far?",n/a,0,,,,,,96,True
+166,1706008673041479200,Bob,online-boutique,12,,1473,"@Tinus we're starting to get some mixed reports of customers not able to access the site, can your team investigate?",n/a,0,,,,,,116,True
+167,1706008676090869000,Tinus,online-boutique,12,,1473,"Yes @Conail Tierney is incident manager today, Conail Tierney can you drive this?",n/a,0,,,,,,81,True
+168,1706008686045589000,Bez,online-boutique,12,,1473,"Hey folks, what is going on? I can see a big drop on payments hitting our accounts",n/a,0,,,,,,82,True
+169,1706008688119599000,Tinus,online-boutique,12,,1473,it could be a load issue,n/a,0,,,,,,24,False
+170,1706008690126459000,Daniel,online-boutique,12,,1473,There were a few deployments this morning,n/a,0,,,,,,41,False
+171,1706008694085089000,Daniel,online-boutique,12,,1473,I'm at your service,n/a,0,,,,,,19,False
+172,1706008696149629200,Tanya,online-boutique,12,,1473,I'm online too,n/a,0,,,,,,14,False
+173,1706008704569539000,conail@uptimelabs.io,online-boutique,12,,1473,Yeah im on it Tinus,n/a,0,,,,,,19,False
+174,1706008706124969000,Bob,online-boutique,12,,1473,What do I need to tell the angry customers?,n/a,0,,,,,,43,True
+175,1706008752135438800,Tinus,online-boutique,12,,1473,Acknowledged. Keep me updated on the progress.,n/a,0,,,,,,46,False
+176,1706008760492169000,Daniel,online-boutique,12,,1473,There's an incident! what is the plan?,n/a,0,,,,,,38,True
+177,1706008795862829000,conail@uptimelabs.io,online-boutique,12,,1473,Im looking into the incident now,n/a,0,,,,,,32,False
+178,1706008824639689000,Tanya,online-boutique,12,,1473,I'll check the status of the payment service and get back to you.,n/a,0,,,,,,65,False
+179,1706008833405059000,conail@uptimelabs.io,online-boutique,12,,1473,Thanks Tanya,n/a,0,,,,,,12,False
+180,1706008837986709000,Tanya,online-boutique,12,,1473,You're welcome.,n/a,0,,,,,,15,False
+181,1706008888539359000,conail@uptimelabs.io,online-boutique,12,,1473,ok had a look and can see a change to frontend and payments,n/a,0,,,,,,59,False
+182,1706008897772409000,conail@uptimelabs.io,online-boutique,12,,1473,also able to recreate the issue,n/a,0,,,,,,31,False
+183,1706008940791359000,conail,online-boutique,12,,1473,*Incident Number INC100098:* Our customers are unable to access the online boutic website and are receiving a 500 error,n/a,0,,,,,,119,False
+184,1706008946417909000,conail@uptimelabs.io,online-boutique,12,,1473,Sev 1,n/a,0,,,,,,5,False
+185,1706008954156708900,Daniel,online-boutique,12,,1473,The most recent changes are CHG89348 and CHG89350 according to logs.,n/a,0,,,,,,68,False
+186,1706008962582129000,Daniel,online-boutique,12,,1473,"Understood. If you need any actions taken regarding the frontend service, just let me know.",n/a,0,,,,,,91,False
+187,1706008993562619000,conail@uptimelabs.io,online-boutique,12,,1473,Ok Dan is the frontend change safe to be rolled back,n/a,0,,,,,,52,False
+188,1706009003793859000,Daniel,online-boutique,12,,1473,I'll look into the frontend issue and start rollback immediately.,n/a,0,,,,,,65,False
+189,1706009016290009000,conail@uptimelabs.io,online-boutique,12,,1473,Daniel thank you,n/a,0,,,,,,16,False
+190,1706009094518148900,Daniel,online-boutique,12,,1473,Updated frontend service. Can you check dashboards?,n/a,0,,,,,,51,True
+191,1706009098562489000,Daniel,online-boutique,12,,1473,No problem.,n/a,0,,,,,,11,False
+192,1706009107649219000,conail@uptimelabs.io,online-boutique,12,,1473,ok will check it now,n/a,0,,,,,,20,False
+193,1706009126064708900,conail@uptimelabs.io,online-boutique,12,,1473,Bob can you also check with customers if the issue is resolved,n/a,0,,,,,,62,False
+194,1706009143375788800,Bob,online-boutique,12,,1473,I'll get on that right now and report back as soon as I have an update.,n/a,0,,,,,,71,False
+195,1706009192888068900,conail@uptimelabs.io,online-boutique,12,,1473,Its looking good for me,n/a,0,,,,,,23,False
+196,1706009198420679200,conail@uptimelabs.io,online-boutique,12,,1473,Bob any update ?,n/a,0,,,,,,16,True
+197,1706009209486919000,Bob,online-boutique,12,,1473,The site is back up and customer complaints are going down.,n/a,0,,,,,,59,False
+198,1706009237967519000,conail@uptimelabs.io,online-boutique,12,,1473,Great job team Daniel can you please look into what in the change caused the incident,n/a,0,,,,,,85,False
+199,1706009267179029000,conail@uptimelabs.io,online-boutique,12,,1473,Team rolled back a change and service has been restored to our customers,n/a,0,,,,,,72,False
+200,1706009282234029000,conail@uptimelabs.io,online-boutique,12,,1473,Incident resolved,n/a,0,,,,,,17,False
+201,1706009291730359000,UptimeLabs,online-boutique,12,,1473,Start drill retro and feedback,n/a,0,,,,,,30,False
+202,1706009317075831800,conail@uptimelabs.io,online-boutique,12,,1473,Clicked Start_feedback button,n/a,0,,,,,,29,False
+203,1706009324514189000,UptimeLabs,online-boutique,12,,1473,Submission successful,n/a,0,,,,,,21,False
+204,1706009852959479000,Bez,online-boutique,4,,1474,Hey team :) can everyone listen up for today's briefing?,n/a,0,,,,,,56,True
+205,1706009861936219000,Bez,online-boutique,4,,1474,Let me know if you're here,n/a,0,,,,,,26,False
+206,1706009865877329200,Hamed,online-boutique,4,,1474,I'm here :grin:,n/a,0,,,,,,15,False
+207,1706009868906639000,Daniel,online-boutique,4,,1474,Me too!,n/a,0,,,,,,7,False
+208,1706009870923439000,Shay,online-boutique,4,,1474,Present sir!,n/a,0,,,,,,12,False
+209,1706009874864009000,Bob,online-boutique,4,,1474,here,n/a,0,,,,,,4,False
+210,1706009876918169000,Tinus,online-boutique,4,,1474,Morning boss,n/a,0,,,,,,12,False
+211,1706009879919819000,Tanya,online-boutique,4,,1474,:wave:,n/a,0,,,,,,6,False
+212,1706009889837729000,Bez,online-boutique,4,,1474,"Nice one folks! Cheer up Bob, I've got some good news :smiley:",n/a,0,,,,,,62,False
+213,1706009892918839000,UptimeLabs,online-boutique,4,,1474,Start lvl 4,n/a,0,,,,,,11,False
+214,1706009896772300000,conail@uptimelabs.io,online-boutique,4,,1474,Clicked Start button,n/a,0,,,,,,20,False
+215,1706009897348289000,Bez,online-boutique,4,,1474,As you know last month we invested considerably on buying advertisement in Roblox (for those who have not heard of the initiative yet: we are advertising in Metaverse),n/a,0,,,,,,167,False
+216,1706009903294129000,Bez,online-boutique,4,,1474,"The numbers so far look great, uptake was more then I expected and we see loads of traffic generated from Roblox",n/a,0,,,,,,112,False
+217,1706009909304169000,Tinus,online-boutique,4,,1474,"That is a great news Bez, but we are getting in to unchartered territory with the load levels in production",n/a,0,,,,,,107,False
+218,1706009913392359000,Tinus,online-boutique,4,,1474,IT team please be super vigilant on the systems. Load related failures are very unpredictable,n/a,0,,,,,,93,False
+219,1706009918353919000,Bez,online-boutique,4,,1474,Ah fair enough Tinus. Keep it online and we'll be swimming in money :) :money_with_wings:,n/a,0,,,,,,89,False
+220,1706009923354259000,Tanya,online-boutique,4,,1474,What is Roblox?,n/a,0,,,,,,15,True
+221,1706009926390059000,Hamed,online-boutique,4,,1474,Tanya revealing her age,n/a,0,,,,,,23,False
+222,1706009930402009000,Shay,online-boutique,4,,1474,Currently googling it... :laughing:,n/a,0,,,,,,35,False
+223,1706009932413508900,Bez,online-boutique,4,,1474,Don't be so rude!,n/a,0,,,,,,17,False
+224,1706009936371339000,Bez,online-boutique,4,,1474,Put simply Roblox is a kool virtual world for young people,n/a,0,,,,,,58,False
+225,1706009939407539000,Bez,online-boutique,4,,1474,Any other questions Tanya?,n/a,0,,,,,,26,True
+226,1706009944412009000,Tanya,online-boutique,4,,1474,"Nope, I'll just ask my son instead",n/a,0,,,,,,34,False
+227,1706009947419779000,Bez,online-boutique,4,,1474,Great! that's it then,n/a,0,,,,,,21,False
+228,1706009951378879000,Bez,online-boutique,4,,1474,"Good luck, Stay on it sales team",n/a,0,,,,,,32,False
+229,1706009958428839000,Tinus,online-boutique,4,,1474,"Ah, I've seen alerts on ad-service",n/a,0,,,,,,34,False
+230,1706009961437079000,Tinus,online-boutique,4,,1474,They look quite worrying,n/a,0,,,,,,24,False
+231,1706009962448108800,Bob,online-boutique,4,,1474,"Guys, big problem!!",n/a,0,,,,,,19,False
+232,1706009966416969000,Bob,online-boutique,4,,1474,I've got reports from multiple users that they can't access the site,n/a,0,,,,,,68,False
+233,1706009972363519000,Bob,online-boutique,4,,1474,Looks like we've got a random site failure,n/a,0,,,,,,42,False
+234,1706009976411669000,Tinus,online-boutique,4,,1474,"the load was quite high, could be a load issue",n/a,0,,,,,,46,False
+235,1706009984371889200,Daniel,online-boutique,4,,1474,Checking those alerts for adservice...,n/a,0,,,,,,38,False
+236,1706009988417819100,Shay,online-boutique,4,,1474,what's going on? what do I need to do,n/a,0,,,,,,37,True
+237,1706009990468709000,Daniel,online-boutique,4,,1474,I made a change to that last sprint... let me check,n/a,0,,,,,,51,False
+238,1706009994381459000,Bez,online-boutique,4,,1474,Guys someone tell me what's happening,n/a,0,,,,,,37,False
+239,1706009997468399000,Bez,online-boutique,4,,1474,Let's not ruin this good day,n/a,0,,,,,,28,False
+240,1706009999470019000,Daniel,online-boutique,4,,1474,Adservice is not running!,n/a,0,,,,,,25,False
+241,1706010002462989000,Tanya,online-boutique,4,,1474,We're on it Bez!,n/a,0,,,,,,16,False
+242,1706019049760659000,tinus,online-boutique,7,,1475,"Hi team, let's have a mood check send an emoji to describe your mood",n/a,0,,,,,,68,False
+243,1706019053727839000,tinus,online-boutique,7,,1475,"I'll go first, :thumbsup:",n/a,0,,,,,,25,False
+244,1706019059595079000,tanya,online-boutique,7,,1475,:thumbsup:,n/a,0,,,,,,10,False
+245,1706019061691049200,tinus,online-boutique,7,,1475,I'm excited about showing off all your hard work at todays stakeholder meeting,n/a,0,,,,,,78,False
+246,1706019064692979200,daniel,online-boutique,7,,1475,":skull: knackered, had a few too many late nights this week",n/a,0,,,,,,59,False
+247,1706019067646239000,shay,online-boutique,7,,1475,:rainbow:,n/a,0,,,,,,9,False
+248,1706019070697388800,hamed,online-boutique,7,,1475,living the dream :smile:,n/a,0,,,,,,24,False
+249,1706019074700919000,bez,online-boutique,7,,1475,:smirk: im excited to see the show too,n/a,0,,,,,,38,False
+250,1706019076701899000,tinus,online-boutique,7,,1475,shouldn't you be prepping for the meeting ,n/a,0,,,,,,42,False
+251,1706019076873828900,aydin.ghane@albelli.com,online-boutique,7,,1475,Hi guys,n/a,0,,,,,,7,False
+252,1706019079710509000,bez,online-boutique,7,,1475,:sweat_smile: i am indeed I'll leave you lot to it,n/a,0,,,,,,50,False
+253,1706019081704889000,shay,online-boutique,7,,1475,hang in there Daniel its gonne be the weekend sooner or later :joy:,n/a,0,,,,,,67,False
+254,1706019084744579000,tinus,online-boutique,7,,1475,I should get on with my prep too have a good day team,n/a,0,,,,,,53,False
+255,1706019085704019000,daniel,online-boutique,7,,1475,Shay strict diet of energy drink for me today lol,n/a,0,,,,,,49,False
+256,1706019088724119000,daniel,online-boutique,7,,1475,hope the presentation goes well Tinus,n/a,0,,,,,,37,False
+257,1706019090748499000,tanya,online-boutique,7,,1475,:raised_hands:,n/a,0,,,,,,14,False
+258,1706019106625509000,UptimeLabs,online-boutique,7,,1475,Level 7 start button,n/a,0,,,,,,20,False
+259,1706019117396163000,aydin.ghane@albelli.com,online-boutique,7,,1475,Clicked Start button,n/a,0,,,,,,20,False
+260,1706019117872869000,UptimeLabs,online-boutique,7,,1475,":alarm_clock: - You have 20 minutes to resolve the outage, good luck! You can type `/help` if you need any reminders.",n/a,0,,,,,,117,False
+261,1706019121014499000,tinus,online-boutique,7,,1475,"Hey team, I'm texting from the board room - kinda embarrassing but in my demo to the board, I tried to add a pair of Aviator sunglasses to the shopping cart and I got a ?http 500?",n/a,0,,,,,,179,True
+262,1706019122990719000,tinus,online-boutique,7,,1475," I've bought some time but need this be able to do this demo if we can lets get this sorted in the next 20 minutes.
+",n/a,0,,,,,,116,False
+263,1706019125487118800,tinus,online-boutique,7,,1475,500 screenshot,n/a,0,,,,,,14,False
+264,1706019127966149000,tanya,online-boutique,7,,1475,"uh oh, those Aviators are top sellers due to the new Top Gun movie...It's size up the issue time Aydin Ghane Khoshkebijari",n/a,0,,,,,,122,False
+265,1706019130968149000,shay,online-boutique,7,,1475,Come on this can't be happening!,n/a,0,,,,,,32,False
+266,1706019132978629000,tinus,online-boutique,7,,1475,"I'm in this meeting so, wont be able to help but I trust that you all can get this fixed asap, just @ me if you need anything",n/a,0,,,,,,125,False
+267,1706019135975019000,shay,online-boutique,7,,1475,ok looking into this now,n/a,0,,,,,,24,False
+268,1706019300518739000,aydin.ghane@albelli.com,online-boutique,7,,1475,Can you help me with the url to reproduce the problem?,n/a,0,,,,,,54,True
+269,1706019311564129000,Daniel,online-boutique,7,,1475,aviators is this one <https://hipster.prod.uptimelabs.io/product/OLJCESPC7Z>,n/a,0,,,,,,76,False
+270,1706019323443219000,Daniel,online-boutique,7,,1475,im not getting the problem either,n/a,0,,,,,,33,False
+271,1706019336333419000,aydin.ghane@albelli.com,online-boutique,7,,1475,"I dont seem to be able to reproduce, can anybody confirm?",n/a,0,,,,,,57,True
+272,1706019343242149000,aydin.ghane@albelli.com,online-boutique,7,,1475,Daniel Can you assess the impact?,n/a,0,,,,,,33,True
+273,1706019352383199000,Daniel,online-boutique,7,,1475,I'll check our services now,n/a,0,,,,,,27,False
+274,1706019388028049000,aydin.ghane@albelli.com,online-boutique,7,,1475,Bob Can you tell us if there's been cusotmer complaints about this?,n/a,0,,,,,,67,True
+275,1706019438596259000,Bob,online-boutique,7,,1475,All quiet here no complaint from customers out the norm,n/a,0,,,,,,55,False
+276,1706019478294969000,UptimeLabs,online-boutique,7,,1475,:alarm_clock: - You are 6 minutes in have you qualified the problem? You can type `/help` if you need any reminders.,n/a,0,,,,,,116,True
+277,1706019489953159200,aydin.ghane@albelli.com,online-boutique,7,,1475,"Tinus We don't seem to be able to recreate the issue, neither can customers.",n/a,0,,,,,,76,False
+278,1706019520164689200,aydin.ghane,online-boutique,7,,1475,*Incident Number INC100092:* SEV3 Can't open Aviators Sunglasses url,n/a,0,,,,,,68,False
+279,1706019520335889200,UptimeLabs,online-boutique,7,,1475,:star: Incident record created,n/a,0,,,,,,30,False
+280,1706019522360049000,UptimeLabs,online-boutique,7,,1475,:star: Send first comms in first 5 minutes,n/a,0,,,,,,42,False
+281,1706019561179739000,aydin.ghane@albelli.com,online-boutique,7,,1475,"Seems like some of us can't open a certain product url (Aviators Sunglasses).
+Incident was cretaed and we're looking into it.",n/a,0,,,,,,125,False
+282,1706019596821799000,UptimeLabs,online-boutique,7,,1475,":bulb: Asking questions to validate impact of the problem""",n/a,0,,,,,,58,False
+283,1706019608911299000,aydin.ghane@albelli.com,online-boutique,7,,1475,Daniel can you check if we've had recent changes to cause this?,n/a,0,,,,,,63,True
+284,1706019653828738800,Daniel,online-boutique,7,,1475,I've been looking at our services and everything looks health,n/a,0,,,,,,61,False
+285,1706019661260679000,Daniel,online-boutique,7,,1475,checking the chages now,n/a,0,,,,,,23,False
+286,1706019679113539000,aydin.ghane@albelli.com,online-boutique,7,,1475,"Any suspecion why he might have this issue?
+Could it be something local on his machine?",n/a,0,,,,,,87,True
+287,1706019718601319200,UptimeLabs,online-boutique,7,,1475,":alarm_clock: - Half your time is up, stay focused. You can type `/help` if you need any reminders.",n/a,0,,,,,,99,False
+288,1706019724504959200,Tinus,online-boutique,7,,1475,any progress team?,n/a,0,,,,,,18,True
+289,1706019739594709000,aydin.ghane@albelli.com,online-boutique,7,,1475,"Tinus not yet, but wer'e on it",n/a,0,,,,,,30,False
+290,1706019753731249200,Daniel,online-boutique,7,,1475,I'm getting suspicious that is soming with tinus config,n/a,0,,,,,,55,False
+291,1706019785734968800,aydin.ghane@albelli.com,online-boutique,7,,1475,Tanya Can you think of what config might be wrong on tinus machine?,n/a,0,,,,,,67,True
+292,1706019840080619000,Tanya,online-boutique,7,,1475,Umm not too sure everything is looking good from the platform perspective,n/a,0,,,,,,73,False
+293,1706019888103609000,Daniel,online-boutique,7,,1475,can he access it on his phone?,n/a,0,,,,,,30,True
+294,1706019898449889000,Daniel,online-boutique,7,,1475,Tinus,n/a,0,,,,,,5,False
+295,1706019910353049000,aydin.ghane@albelli.com,online-boutique,7,,1475,"This doesnt seem to be impacting customers.
+Seems to be a local issue with configs on Tinus machine.",n/a,0,,,,,,100,False
+296,1706019930469698800,Tinus,online-boutique,7,,1475,I will try now,n/a,0,,,,,,14,False
+297,1706019952665339000,Tinus,online-boutique,7,,1475,sorry very distracted with this meeting ,n/a,0,,,,,,40,False
+298,1706019958789499100,Tinus,online-boutique,7,,1475,no problems on mobile ,n/a,0,,,,,,22,False
+299,1706019968101878800,Tinus,online-boutique,7,,1475,do you this this is a desktop only issue?,n/a,0,,,,,,41,True
+300,1706019991835839000,aydin.ghane@albelli.com,online-boutique,7,,1475,Daniel :point_up:,n/a,0,,,,,,17,False
+301,1706019997379789000,UptimeLabs,online-boutique,7,,1475,:star: Cross check resolution with stakeholders,n/a,0,,,,,,47,False
+302,1706020046627659000,Daniel,online-boutique,7,,1475,"Definitley not we're not seeing this as a global issue, could be an caching issue maybe? or vpn? browser version?",n/a,0,,,,,,113,True
+303,1706020053804639000,Daniel,online-boutique,7,,1475,what do you think Aydin?,n/a,0,,,,,,24,True
+304,1706020078892629000,aydin.ghane@albelli.com,online-boutique,7,,1475,Tinus Can you try ctrl+shift+r on your browser to reload with clear cache?,n/a,0,,,,,,74,True
+305,1706020078962279200,UptimeLabs,online-boutique,7,,1475,:alarm_clock: - You have less than 4 minutes. You can type `/help` if you need any reminders.,n/a,0,,,,,,93,False
+306,1706020087335579000,Tinus,online-boutique,7,,1475,trying now,n/a,0,,,,,,10,False
+307,1706020101470449000,tinus,online-boutique,7,,1475,Damn! thats it,n/a,0,,,,,,14,False
+308,1706020103581479200,tinus,online-boutique,7,,1475,"Great Ive got to do my presentation now, thanks for figuring this out so quickly. Daniel Shay can you look in to a cache busting solution?",n/a,0,,,,,,138,True
+309,1706020105627079000,shay,online-boutique,7,,1475,it was the cache! sure we can do that,n/a,0,,,,,,37,False
+310,1706020107568089000,daniel,online-boutique,7,,1475,"no worries boss, at least its not a significat issue",n/a,0,,,,,,52,False
+311,1706020108579499000,daniel,online-boutique,7,,1475,good luck with the presentation!,n/a,0,,,,,,32,False
+312,1706020109586719000,tanya,online-boutique,7,,1475,yes good luck Tinus,n/a,0,,,,,,19,False
+313,1706020111611369000,shay,online-boutique,7,,1475,good luck Tinus!,n/a,0,,,,,,16,False
+314,1706020122609769200,UptimeLabs,online-boutique,7,,1475,Start retro and feedback,n/a,0,,,,,,24,False
+315,1706020123004229000,aydin.ghane@albelli.com,online-boutique,7,,1475,"Jolly good, seems like we can give business poepple the good news.",n/a,0,,,,,,66,False
+316,1706020145549449000,UptimeLabs,online-boutique,7,,1475,:star: Validate the fix,n/a,0,,,,,,23,False
+317,1706020163561299200,aydin.ghane@albelli.com,online-boutique,7,,1475,"The problem was something local on Tinus machine.
+It was solved without an impact on users.",n/a,0,,,,,,91,False
+318,1706020167466332000,aydin.ghane@albelli.com,online-boutique,7,,1475,Clicked Start_feedback button,n/a,0,,,,,,29,False
+319,1706020386893659100,UptimeLabs,online-boutique,7,,1475,Submission successful,n/a,0,,,,,,21,False
