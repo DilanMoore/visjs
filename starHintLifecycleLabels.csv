@@ -1,0 +1,73 @@
+,message,flag
+0,:star: Qualify the problem,size up
+1,:bulb: Fully understand scope of the problem,size up
+2,:bulb: Validate scope of the problem,size up
+3,:bulb: Establish the impact of the issue,size up
+4,:bulb: Validate problem statement with metrics,size up
+5,:bulb: how many users are affected? does this rule out possible causes?,size up
+6,:bulb: Check that stakeholders are also this same issue,size up
+7,:bulb: what do users reporting the problem have in common?,size up
+8,:star: Reproduces the incident,size up
+9,:bulb: Understand the problem by reproducing it,size up
+10,:star: Incident record is created,size up
+11,:bulb: Declare an incident.,size up
+12,:star: Send the first comms in first 5 minutes,size up
+13,"
+:bulb: Collect enough information to send meaningful business comunication within the first 5 minutes",size up
+14,:star: Formally assign criticality level to the incident,size up
+15,:bulb: assign criticality level to the incident,size up
+16,:star: Reviewed changes,size up
+17,:bulb: Check the changes done in the platform,size up
+18,:star: Attempt to replicate the issue,size up
+19,:star: Asking questions to validate impact of the problem,size up
+20,:bulb: Asking questions to validate impact of the problem,size up
+21,:star: Check changes done to the platform,size up
+22,:bulb: Check changes done to the platform,size up
+23,:star: Form an effective investigation team,triage
+24,:bulb: Form an effective investigation team,triage
+25,"
+:bulb: Form strategy for troubleshooting and use whole team to execute",triage
+26,:star: form a working theory,triage
+27,:bulb: form a working theory and try to validate or invalidate it,triage
+28,:star: Ask team members to provide evidence of their assertions,triage
+29,:bulb: Ask team members to provide evidence of their assertions,triage
+30,:star: Restoration over root cause analysis,action
+31,:bulb: Restoration over root cause analysis,action
+32,:star: Use metrics as evidence,action
+33,:bulb: Use metrics as evidence,action
+34,:bulb: regularly report on outstanding actions can keep people on track,action
+35,:star: Escalating when required (Incident Manager,action
+36,:bulb: You have support from other more experienced colleagues when needed,action
+37,:star: track actions and time box them (Incident Manager,action
+38,:bulb: track actions and time box them,action
+39,:star: Know your team and their roles (Incident Manager,action
+40,:bulb: Who in the organisation can help you understand how customers are affected?,action
+41,:bulb: Who in the organisation can help you understand about platform changes,action
+42,:bulb: Who in the organisation can help you understand about developer changes,action
+43,:bulb: Who in the organisation can escalate the issue to,action
+44,:bulb: check the organisation chart to see who the right person to ask is. Use /help and press org chart.,action
+45,:star: Cross check resolution with stakeholders,resolution
+46,:bulb: Cross check resolution with stakeholders,resolution
+47,:star: Cross checking resolution with team ,resolution
+48,:bulb: Cross checking resolution with team ,resolution
+49,:star: Validate the fix,resolution
+50,:bulb: Validate the fix,resolution
+51,:star: Confirm resolution with the business,resolution
+52,:bulb: Confirm resolution with the business,resolution
+53,:star: Encourage business comms (Incident Manager,undecided
+54,:bulb: Encourage business comms,undecided
+55,:bulb: Avoid distractions,undecided
+56,:star: Manage actions and timings (Incident Manager),undecided
+57,:star: Communicating clearly and frequently (Incident Manager,undecided
+58,:bulb: Communicate clearly and frequently,undecided
+59,:star: Take command (Incident Manager),undecided
+60,:star: Send regular business comms,undecided
+61,:bulb: keep the business informed regularly,undecided
+62,:bulb: Be clear about what the issue is when communicating with stakeholders,undecided
+63,:star: Manage actions and timings,undecided
+64,:bulb: Manage actions and timings,undecided
+65,"
+:star: Good star knowledge and able to explain to others",undecided
+66,:star: Remember what STAR stands for,undecided
+67,:star: Facts over opinion,undecided
+68,:bulb: Facts over opinion,undecided

@@ -99,3 +99,8 @@ def structureJSON():
     # Writing to sample.json
     with open("session_restructured.js", "w") as outfile:
         outfile.write("var sessions = " + json_sessions)
+
+    # Creating clean json with prefix for further pyson vis
+    with open("nonVar_session_restructured.js", "w") as outfile:
+        outfile.write(json_sessions)
+

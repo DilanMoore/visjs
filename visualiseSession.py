@@ -3,6 +3,7 @@ import sessionFilter
 import webbrowser
 import lokiProcesser
 import jsonParser
+import mapIncidentLifecycle
 
 lokiGrabber.grabData()
 lokiProcesser.processRawLokiData()
@@ -12,5 +13,7 @@ sessionFilter.filterSession(session)
 
 jsonParser.parseJSON()
 jsonParser.structureJSON()
+
+mapIncidentLifecycle.mapSessionLifecycle()
  
 webbrowser.open_new_tab('index.html')
