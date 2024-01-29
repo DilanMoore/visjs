@@ -4,6 +4,7 @@ import webbrowser
 import lokiProcesser
 import jsonParser
 import mapIncidentLifecycle
+import chordPlotGenerator
 
 lokiGrabber.grabData()
 lokiProcesser.processRawLokiData()
@@ -15,5 +16,6 @@ jsonParser.parseJSON()
 jsonParser.structureJSON()
 
 mapIncidentLifecycle.mapSessionLifecycle()
+chordPlotGenerator.generateChordPlot()
  
 webbrowser.open_new_tab('index.html')
